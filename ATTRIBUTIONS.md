@@ -62,6 +62,12 @@ The audio files used for benchmarking `hushcheck` are derived from open-access r
     - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rep._Edward_Boland_Questions_Secretary_of_Defense_Caspar_Weinberger_During_the_Iran-Contra_Hearings.ogg)
     - License: Public Domain
 
+13. **AMI Meeting Corpus (Meetings ES2002a, IS1000a, TS3003a)**
+    - Source: [AMI Meeting Corpus Mirror](https://groups.inf.ed.ac.uk/ami/corpus/) / University of Edinburgh
+    - Description: Multi-speaker natural meetings recorded with individual and mixed headset microphones, complete with manual word-level time-aligned annotations.
+    - License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+    - Citation: Carletta et al., "The AMI Meeting Corpus: A Pre-announcement", In Proc. MLMI 2005.
+
 ### Reproduction
 
 The audio files are generated locally via `python scripts/curate_audio_dataset.py`. Binary audio files are kept local and excluded from git version control.

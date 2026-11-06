@@ -11,9 +11,9 @@
 This protocol governs the single evaluation run on the authentic evaluation dataset. No thresholds will be altered after this evaluation runs.
 
 ### Claim (a): Auto-flag Mode (`LIKELY`)
-- **Metric**: False-alarm rate on real speech lines $\le 1.0\%$ (with the upper bound of the 95% Wilson score confidence interval $\le 2.5\%$).
-- **Precision Target**: $\ge 90\%$ precision on silence and beyond-audio hallucinations.
-- **Minimum Flag Threshold**: Requires at least $N \ge 30$ `LIKELY` flags in the test set to be statistically meaningful.
+- **Metric 1 (False-Alarm Rate on Real Speech)**: False-alarm rate on real speech lines must be $\le 1.0\%$ point estimate, and the upper bound of the 95% Wilson score confidence interval must be $\le 2.5\%$. Evaluated on at least $N \ge 100$ real speech lines.
+- **Metric 2 (Recall on Silence / Near-Silence Inventions)**: Recall on hallucinations occurring over silence or near-silence ($< 15\%$ active sound) must be $\ge 80\%$ (lower bound of 95% Wilson interval $\ge 60\%$), evaluated on at least $N \ge 30$ silence/near-silence lines.
+- **Precision Metric Dropped**: As noted in peer review, precision depends heavily on the class balance of the test set (and is trivially 100% on pure non-speech audio). Claim (a) is therefore evaluated strictly via False-Alarm Rate on real speech and Recall on silence/near-silence inventions.
 
 ### Claim (b): Review Mode (`LIKELY + SUSPECT`)
 - **Metric**: Recall on invented lines must be **clearly higher** than `whisper-guard` (defined as non-overlapping 95% Wilson score confidence intervals).
@@ -69,12 +69,17 @@ To eliminate subjective manual bias:
 
 ## 5. Single Round 1 Fix Proposal & Predicted Effects
 
+> [!NOTE]
+> **Dev-Set Fitting Disclosure**: This single threshold adjustment (Fix A) was chosen based on false-alarm observations from the 43-file semi-synthetic development set. Per our experimental protocol, this is the single permitted fix round. Its generalization will be evaluated once on the authentic dataset without further retuning.
+
 ### Fix A: Adjust `LOW_SPEECH_BELOW` from 0.35 to 0.28
 - **Rationale**: In the development set, 9 of 13 false alarms occurred on natural speech phrases where inter-phrase breath or pause caused the acoustic active fraction to dip to 28%–34%. Setting `LOW_SPEECH_BELOW = 0.28` prevents flagging normal conversational breath pauses.
 - **Predicted Effect on Recall**: This will slightly reduce recall on boundary segments where someone spoke for 28%–34% of a line, but will preserve detection on silence stretches ($< 15\%$, weight 3) and near-silences ($< 28\%$).
+- **Cost Trade-off**: We accept a modest drop in boundary recall in exchange for driving the False-Alarm Rate on real conversational speech below the 1.0% threshold.
 
 ### Fix B: Retain `NOT_SPEECH_DEPTH = 0.20` (Do NOT Lower to 0.15)
 - **Rationale**: Whisper's hallucinations over music have modulation depths around 0.16–0.18. Lowering this threshold to 0.15 would have turned off `NOT_SPEECH_LIKE` on music, collapsing recall on music-induced hallucinations. Keeping `0.20` preserves the core signal for detecting steady non-speech audio.
+- **Predicted Effect**: Preserves detection capability on pure music and continuous background noise without degrading review mode (`LIKELY + SUSPECT`) recall.
 
 ### Fix C: Scoring Dynamics for Music vs. Silence
 - Hallucinations over **silence** trigger `NO_SPEECH` (weight 3) $\rightarrow$ `LIKELY` (Claim a).
