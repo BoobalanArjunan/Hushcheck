@@ -9,6 +9,8 @@ dist/
 cache_raw/
 audio/
 unseen/
+eval_data/
+
 
 
 

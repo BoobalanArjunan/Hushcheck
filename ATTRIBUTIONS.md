@@ -34,6 +34,35 @@ The audio files used for benchmarking `hushcheck` are derived from open-access r
    - Performance: eldüendesüarez (Piano)
    - License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
+### Authentic Evaluation Dataset (eval_data/)
+
+7. **Chopin: Nocturne No. 2 in E-flat major, Op. 9 No. 2**
+   - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac)
+   - Performance: Frank Levy (Piano)
+   - License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
+8. **Claude Debussy: Suite bergamasque - Clair de lune**
+   - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clair_de_lune_(Claude_Debussy)_Suite_bergamasque.ogg)
+   - License: Public Domain
+
+9. **Chopin: Nocturne No. 1 in B-flat minor, Op. 9 No. 1**
+   - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._1_in_B-flat_minor,_Op._9_No._1_(Olga_Gurevich).flac)
+   - Performance: Olga Gurevich (Piano)
+   - License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+
+10. **Nature Recording: Rain, Thunder, and Birds**
+    - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rain_thunder_and_birds.ogg)
+    - License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+
+11. **Field Recording: Rain on Concrete during Thunderstorm**
+    - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rain_on_Concrete_during_storm_with_thunder.wav)
+    - License: Creative Commons CC0 1.0 Universal Public Domain Dedication
+
+12. **Historical Dialogue: Rep. Edward Boland Questions Caspar Weinberger (Iran-Contra Hearings)**
+    - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rep._Edward_Boland_Questions_Secretary_of_Defense_Caspar_Weinberger_During_the_Iran-Contra_Hearings.ogg)
+    - License: Public Domain
+
 ### Reproduction
 
 The audio files are generated locally via `python scripts/curate_audio_dataset.py`. Binary audio files are kept local and excluded from git version control.
+
