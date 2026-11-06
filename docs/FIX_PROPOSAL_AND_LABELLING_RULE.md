@@ -2,7 +2,8 @@
 
 **Author**: Boobalan Arjunan  
 **Date**: November 2026  
-**Status**: Revised Specification for Review (Prior to Execution)
+**Status**: Frozen (Tag: `eval-spec-v2`)  
+*Note: Tag `eval-spec-v1` locked the code with Fix A and initial spec; `eval-spec-v2` updates wording, corpus table alignment, and baseline configurations with zero code changes and zero evaluations run in between.*
 
 ---
 
@@ -11,14 +12,18 @@
 This protocol governs the single evaluation run on the authentic evaluation dataset. No thresholds will be altered after this evaluation runs.
 
 ### Claim (a): Auto-flag Mode (`LIKELY`)
-- **Metric 1 (False-Alarm Rate on Real Speech)**: False-alarm rate on real speech lines must be $\le 1.0\%$ point estimate, and the upper bound of the 95% Wilson score confidence interval must be $\le 2.5\%$. Evaluated on **at least $N \ge 300$ real speech lines**. *(Mathematical note: at $N = 100$, even 0 false alarms yields a 95% Wilson upper bound of $3.7\%$, making the $\le 2.5\%$ requirement unreachable; at $N \ge 300$, 0 false alarms yields an upper bound of $1.25\%$ and 1 false alarm yields $1.85\%$, making the criterion statistically sound and attainable on real corpora).*
-- **Metric 2 (Recall on Silence / Near-Silence Inventions)**: Recall on hallucinations occurring over silence or near-silence ($< 15\%$ active sound) must be $\ge 80\%$ (lower bound of 95% Wilson interval $\ge 60\%$), evaluated on at least $N \ge 30$ silence/near-silence lines.
-- **Precision Metric Dropped**: As noted in peer review, precision depends heavily on the class balance of the test set (and is trivially 100% on pure non-speech audio). Claim (a) is therefore evaluated strictly via False-Alarm Rate on real speech and Recall on silence/near-silence inventions.
+- **Metric 1 (False-Alarm Rate on Real Speech)**: False-alarm rate on real speech lines must be $\le 1.0\%$ point estimate, and the upper bound of the 95% Wilson score confidence interval must be $\le 2.5\%$. Evaluated on **at least $N \ge 300$ real speech lines** (AMI lines with $\ge 50\%$ annotated speech overlap). *(Mathematical note: at $N = 100$, even 0 false alarms yields a 95% Wilson upper bound of $3.7\%$, making the $\le 2.5\%$ requirement unreachable; at $N \ge 300$, 0 false alarms yields an upper bound of $1.25\%$ and 1 false alarm yields $1.85\%$, making the criterion statistically sound and attainable on real corpora).*
+- **Metric 2 (Recall on Silence Hallucinations Defined by Annotations)**: Recall on transcript lines invented over speech-free pauses in AMI meetings (defined objectively as **lines with $< 20\%$ duration overlap with annotated speech**) must be $\ge 80\%$ point estimate (lower bound of 95% Wilson interval $\ge 60\%$), evaluated on at least $N \ge 30$ silence lines. *(Note: Pure music and pure noise hallucinations are reported as separate categories on their own).*
+- **Precision Metric Dropped**: As noted in peer review, precision depends heavily on the class balance of the test set (and is trivially 100% on pure non-speech audio). Claim (a) is therefore evaluated strictly via False-Alarm Rate on real speech and Recall on silence inventions defined by ground-truth annotations.
 
 ### Claim (b): Review Mode (`LIKELY + SUSPECT`)
 - **Metric**: Recall on invented lines must be **clearly higher** than `whisper-guard` (defined as non-overlapping 95% Wilson score confidence intervals).
 - **False Alarm Constraint**: False-alarm rate on real speech must be **no higher than `whisper-guard`'s** false-alarm rate.
 - **Baseline Comparison**: Recall must be higher than the text-checks-only baseline.
+
+### Baseline Configurations
+- **`whisper-guard`**: Installed version `0.3.3` with default settings (`WhisperGuard(rescue=True, strict=False)`).
+- **Text-Only Baseline**: HushCheck's text-rule suite (`hushcheck.textchecks`: repetition loops, phantom credits, speed anomalies, bad timestamps) running without any audio acoustic verification.
 
 ### Stopping Rule
 If both Claim (a) and Claim (b) pass, HushCheck proceeds toward release documentation. If either fails, we stop under the fixed rule; HushCheck remains documented as an experimental prototype with findings published in an article, and is not submitted to PyPI.
@@ -43,22 +48,24 @@ To ensure run-to-run reproducibility, complete immutability, and zero stochastic
   ```
 - **Fair Baseline**: The exact same raw JSON transcripts are saved to disk and evaluated by `hushcheck`, `whisper-guard`, and `text-only checks`.
 - **Single-Execution Invariant**: The evaluation script is run **exactly once** on the saved raw transcripts. No post-hoc rerun or secondary threshold tuning is allowed.
-- **Git Freeze Tag**: Tagged as `eval-spec-v1` covering this specification document and the implementation of Fix A (`LOW_SPEECH_BELOW = 0.28`).
+- **Git Freeze Tag**: Tagged as `eval-spec-v2` covering this frozen specification and the implementation of Fix A (`LOW_SPEECH_BELOW = 0.28`).
 
 ---
 
 ## 3. Authentic Evaluation Corpus & Sizing
 
-The evaluation set will contain **at least 100 invented lines** and **at least 300 real speech lines** across multiple independent recordings.
+The evaluation set contains **at least 100 invented lines** and **at least 300 real speech lines** across multiple independent recordings.
 - **Statistical Inconclusive Rule**: Pure music and noise may produce few invented lines if Whisper outputs nothing. If the total number of invented lines across the entire test set falls under 100, the result will be reported explicitly as **inconclusive** due to sample size limits.
 - **Ambiguity Reporting**: All lines falling in the ambiguous overlap zone ($20\% \le \text{overlap} < 50\%$) will be logged with timestamps and included in the final report.
 
-| Category | Dataset / Sources | Volume | Description & License |
+### Exactly Staged Corpus (on disk in `eval_data/` and `unseen/`)
+
+| Category | Files Staged on Disk | Duration | Description & License |
 |---|---|---|---|
-| **A. Pure Instrumental Music** | Chopin Nocturnes (Levy & Gurevich), Debussy (*Clair de lune*), Joplin Ragtime | 5 complete tracks (~25 min) | CC BY 3.0 / Public Domain. **100% Non-speech**. |
-| **B. Pure Environmental Noise** | Nature field recordings (rain on concrete, thunderstorm, nature ambience) | 3 tracks (~20 min) | CC0 / CC BY-SA 3.0. **100% Non-speech**. |
-| **C. Natural Meetings with Pauses** | AMI Meeting Corpus (`ES2002a`, `IS1000a`, `TS3003a`) | 3 meetings (~60 min) | CC BY 4.0. Natural multi-speaker meetings with real conversational turn-taking, pauses, and room tone. |
-| **D. Unseen Reserve** | 3 independent recordings (1 meeting, 1 music, 1 noise) | 3 files | Kept in `unseen_real/` and untouched until final check. |
+| **A. Pure Instrumental Music** | `music_chopin_nocturne_op9_no2.flac`<br>`music_debussy_clair_de_lune.ogg`<br>`music_chopin_nocturne_op9_no1.flac` | 15.0 min (3 tracks) | Solo piano (Levy, Gurevich, Debussy). CC BY 3.0 / Public Domain. **100% Non-speech**. |
+| **B. Pure Environmental Noise** | `noise_rain_concrete.wav`<br>`noise_rain_thunder.ogg` | 19.5 min (2 tracks) | Field recordings of heavy rain and thunderstorm. CC0 / CC BY-SA 3.0. **100% Non-speech**. |
+| **C. Natural Meetings with Pauses** | `ami/ES2002a.Mix-Headset.wav`<br>`ami/IS1000a.Mix-Headset.wav`<br>`ami/TS3003a.Mix-Headset.wav` | 71.4 min (3 meetings) | AMI Meeting Corpus. CC BY 4.0. Natural multi-speaker meetings with real turn-taking, pauses, and room tone. |
+| **D. Unseen Reserve** | `unseen/unseen_clean_1.wav`<br>`unseen/unseen_meeting_2.wav`<br>`unseen/unseen_podcast_3.wav` | ~3 min (3 files) | Clean speech, meeting excerpt, podcast dialogue. Kept in `unseen/` and untouched until final check. |
 
 ---
 
