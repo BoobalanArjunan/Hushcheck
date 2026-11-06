@@ -1,0 +1,39 @@
+{
+  "text": " of 12 male Washington Redskins fans who wore women's dresses, garden party ha-",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.0,
+      "text": " of 12 male Washington Redskins fans who wore women's dresses, garden party ha-",
+      "tokens": [
+        50364,
+        295,
+        2272,
+        7133,
+        6149,
+        4477,
+        5161,
+        1292,
+        4499,
+        567,
+        13857,
+        2266,
+        311,
+        25156,
+        11,
+        7431,
+        3595,
+        324,
+        12,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34665230342320036,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.1688891351222992
+    }
+  ],
+  "language": "en"
+}
