@@ -1,0 +1,62 @@
+{
+  "text": " of 1941, the regimen was relocated to the Philippines. There's a graphic featuring a photo of Felix James McCool.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.96,
+      "text": " of 1941, the regimen was relocated to the Philippines. There's a graphic",
+      "tokens": [
+        50364,
+        295,
+        35364,
+        11,
+        264,
+        1121,
+        19676,
+        390,
+        26981,
+        770,
+        281,
+        264,
+        20153,
+        13,
+        821,
+        311,
+        257,
+        14089,
+        50712
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31645691779352003,
+      "compression_ratio": 1.0560747663551402,
+      "no_speech_prob": 0.07689083367586136
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.96,
+      "end": 11.84,
+      "text": " featuring a photo of Felix James McCool.",
+      "tokens": [
+        50712,
+        19742,
+        257,
+        5052,
+        295,
+        30169,
+        5678,
+        12061,
+        1092,
+        13,
+        50956
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31645691779352003,
+      "compression_ratio": 1.0560747663551402,
+      "no_speech_prob": 0.07689083367586136
+    }
+  ],
+  "language": "en"
+}

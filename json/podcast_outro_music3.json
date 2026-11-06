@@ -1,0 +1,106 @@
+{
+  "text": " Philippines Campaign, 1941 and 1942, the Battle of Baton and the Battle of Corregidor. Korean War, the Battle of Cho-Sin Resufor. Awards, Purple Heart II.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.68,
+      "text": " Philippines Campaign, 1941 and 1942,",
+      "tokens": [
+        50364,
+        20153,
+        38256,
+        11,
+        35364,
+        293,
+        37549,
+        11,
+        50548
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.40478733062744143,
+      "compression_ratio": 1.2833333333333334,
+      "no_speech_prob": 0.19263391196727753
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.68,
+      "end": 7.6000000000000005,
+      "text": " the Battle of Baton and the Battle of Corregidor.",
+      "tokens": [
+        50548,
+        264,
+        11846,
+        295,
+        10066,
+        266,
+        293,
+        264,
+        11846,
+        295,
+        3925,
+        3375,
+        29718,
+        13,
+        50744
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.40478733062744143,
+      "compression_ratio": 1.2833333333333334,
+      "no_speech_prob": 0.19263391196727753
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.6000000000000005,
+      "end": 11.4,
+      "text": " Korean War, the Battle of Cho-Sin Resufor.",
+      "tokens": [
+        50744,
+        6933,
+        3630,
+        11,
+        264,
+        11846,
+        295,
+        12366,
+        12,
+        50,
+        259,
+        5015,
+        2947,
+        284,
+        13,
+        50934
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.40478733062744143,
+      "compression_ratio": 1.2833333333333334,
+      "no_speech_prob": 0.19263391196727753
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.4,
+      "end": 15.120000000000001,
+      "text": " Awards, Purple Heart II.",
+      "tokens": [
+        50934,
+        22187,
+        11,
+        28483,
+        13569,
+        6351,
+        13,
+        51120
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.40478733062744143,
+      "compression_ratio": 1.2833333333333334,
+      "no_speech_prob": 0.19263391196727753
+    }
+  ],
+  "language": "en"
+}

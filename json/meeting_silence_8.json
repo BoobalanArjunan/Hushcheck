@@ -1,0 +1,112 @@
+{
+  "text": " done on July 26, 2023. Felix James McCool, June 14, 1912 to December 26, 2020. Just held Marine POW until surpassed by several other Marines during the Vietnam War. Early life and World War II.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": " done on July 26, 2023.",
+      "tokens": [
+        50364,
+        1096,
+        322,
+        7370,
+        7551,
+        11,
+        44377,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.48060342243739534,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.21694272756576538
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.0,
+      "end": 10.0,
+      "text": " Felix James McCool, June 14, 1912 to December 26, 2020.",
+      "tokens": [
+        50564,
+        30169,
+        5678,
+        12061,
+        1092,
+        11,
+        6928,
+        3499,
+        11,
+        1294,
+        4762,
+        281,
+        7687,
+        7551,
+        11,
+        4808,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.48060342243739534,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.21694272756576538
+    },
+    {
+      "id": 2,
+      "seek": 3000,
+      "start": 30.0,
+      "end": 40.0,
+      "text": " Just held Marine POW until surpassed by several other Marines during the Vietnam War.",
+      "tokens": [
+        50364,
+        1449,
+        5167,
+        20415,
+        39272,
+        1826,
+        27650,
+        292,
+        538,
+        2940,
+        661,
+        39331,
+        1830,
+        264,
+        11013,
+        3630,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32551465715680805,
+      "compression_ratio": 1.1067961165048543,
+      "no_speech_prob": 0.25808006525039673
+    },
+    {
+      "id": 3,
+      "seek": 3000,
+      "start": 40.0,
+      "end": 44.0,
+      "text": " Early life and World War II.",
+      "tokens": [
+        50864,
+        18344,
+        993,
+        293,
+        3937,
+        3630,
+        6351,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32551465715680805,
+      "compression_ratio": 1.1067961165048543,
+      "no_speech_prob": 0.25808006525039673
+    }
+  ],
+  "language": "en"
+}

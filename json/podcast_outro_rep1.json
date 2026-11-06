@@ -1,0 +1,69 @@
+{
+  "text": " Felix J. McCool on Wikipedia, the free encyclopedia, en.wikipedia.org. This is a voice recording done on July 26th.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 8.8,
+      "text": " Felix J. McCool on Wikipedia, the free encyclopedia, en.wikipedia.org.",
+      "tokens": [
+        50364,
+        30169,
+        508,
+        13,
+        12061,
+        1092,
+        322,
+        28999,
+        11,
+        264,
+        1737,
+        465,
+        34080,
+        47795,
+        11,
+        465,
+        13,
+        86,
+        1035,
+        26633,
+        13,
+        4646,
+        13,
+        50804
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.37938968758834035,
+      "compression_ratio": 1.0952380952380953,
+      "no_speech_prob": 0.5206226706504822
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 8.8,
+      "end": 12.040000000000001,
+      "text": " This is a voice recording done on July 26th.",
+      "tokens": [
+        50804,
+        639,
+        307,
+        257,
+        3177,
+        6613,
+        1096,
+        322,
+        7370,
+        7551,
+        392,
+        13,
+        50966
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.37938968758834035,
+      "compression_ratio": 1.0952380952380953,
+      "no_speech_prob": 0.5206226706504822
+    }
+  ],
+  "language": "en"
+}

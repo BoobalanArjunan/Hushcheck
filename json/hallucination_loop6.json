@@ -1,0 +1,113 @@
+{
+  "text": " Wean winners... Or, fel ond dw not\u011ff! Y cwb llam registration board Atgoeddon y metw Fel hynny, dyna er mwyn ddarm gweithioawr",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.62,
+      "text": " Wean winners...",
+      "tokens": [
+        50364,
+        492,
+        282,
+        17193,
+        485,
+        50495
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.379215173554003,
+      "compression_ratio": 1.1238938053097345,
+      "no_speech_prob": 0.02885231003165245
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.0,
+      "end": 6.0,
+      "text": " Or, fel ond dw not\u011ff!",
+      "tokens": [
+        50514,
+        1610,
+        11,
+        11094,
+        322,
+        67,
+        27379,
+        406,
+        1640,
+        69,
+        0,
+        50664
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.379215173554003,
+      "compression_ratio": 1.1238938053097345,
+      "no_speech_prob": 0.02885231003165245
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.0,
+      "end": 9.0,
+      "text": " Y cwb llam registration board Atgoeddon y metw",
+      "tokens": [
+        50664,
+        398,
+        269,
+        86,
+        65,
+        16848,
+        16847,
+        3150,
+        1711,
+        1571,
+        292,
+        13966,
+        288,
+        1131,
+        86,
+        50814
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.379215173554003,
+      "compression_ratio": 1.1238938053097345,
+      "no_speech_prob": 0.02885231003165245
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.0,
+      "end": 19.900000000000002,
+      "text": " Fel hynny, dyna er mwyn ddarm gweithioawr",
+      "tokens": [
+        50814,
+        13298,
+        2477,
+        77,
+        1634,
+        11,
+        14584,
+        629,
+        1189,
+        275,
+        28284,
+        274,
+        67,
+        4452,
+        290,
+        826,
+        355,
+        1004,
+        1607,
+        81,
+        51359
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.379215173554003,
+      "compression_ratio": 1.1238938053097345,
+      "no_speech_prob": 0.02885231003165245
+    }
+  ],
+  "language": "cy"
+}

@@ -1,0 +1,69 @@
+{
+  "text": " purposes, to cheer on their favorite NFL team and to raise money for charity. The group was founded in 1983 by Michael Torbert and became a regular fixture at the",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.5,
+      "text": " purposes, to cheer on their favorite NFL team and to raise money for charity.",
+      "tokens": [
+        50364,
+        9932,
+        11,
+        281,
+        12581,
+        322,
+        641,
+        2954,
+        24817,
+        1469,
+        293,
+        281,
+        5300,
+        1460,
+        337,
+        16863,
+        13,
+        50689
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19154619559263572,
+      "compression_ratio": 1.218045112781955,
+      "no_speech_prob": 0.14087912440299988
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.5,
+      "end": 11.9,
+      "text": " The group was founded in 1983 by Michael Torbert and became a regular fixture at the",
+      "tokens": [
+        50689,
+        440,
+        1594,
+        390,
+        13234,
+        294,
+        31758,
+        538,
+        5116,
+        7160,
+        4290,
+        293,
+        3062,
+        257,
+        3890,
+        47680,
+        412,
+        264,
+        50959
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19154619559263572,
+      "compression_ratio": 1.218045112781955,
+      "no_speech_prob": 0.14087912440299988
+    }
+  ],
+  "language": "en"
+}

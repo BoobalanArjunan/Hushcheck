@@ -59,18 +59,19 @@ The audio part is plain signal processing (energy in the speech band, loud versu
 
 ## Real-Data Benchmark: hushcheck vs whisper-guard
 
-Evaluated on real OpenAI Whisper output across 17 audio files (meetings with long silences, podcasts with intro/outro music, calls with hold music, speech over background music, and clean speech) using `scripts/real_data_check.py`:
+Evaluated on real OpenAI Whisper output across 43 audio files (meetings with long silences, podcasts with intro/outro music, calls with hold music, speech over background music, and clean speech) totaling 257 transcript lines (39 labelled invented, 218 real) using `scripts/real_data_check.py`:
 
 | Method | Invented Caught | Invented Missed | False Alarms | Precision | Recall | False-Alarm Rate on Real Lines |
 |---|---|---|---|---|---|---|
-| **hushcheck LIKELY** | **8** | **2** | **0** | **100%** | **80%** | **0.0%** |
-| hushcheck LIKELY+SUSPECT | 8 | 2 | 4 | 67% | 80% | 3.1% |
-| text checks only | 3 | 7 | 0 | 100% | 30% | 0.0% |
-| whisper-guard | 0 | 10 | 1 | 0% | 0% | 0.8% |
+| hushcheck LIKELY | 10 | 29 | 1 | 91% | 26% | 0.5% |
+| **hushcheck LIKELY+SUSPECT** | **31** | **8** | **13** | **70%** | **79%** | **6.0%** |
+| text checks only | 20 | 19 | 0 | 100% | 51% | 0.0% |
+| whisper-guard | 20 | 19 | 22 | 48% | 51% | 10.1% |
 
 ### Key Findings
-1. **Audio signal processing adds clear value**: Text checks alone caught only 30% of invented lines, while checking the underlying audio band energy and syllable pulsing propelled `hushcheck` to **80% recall** at **100% precision**.
-2. **Clear advantage over whisper-guard**: Whisper's internal confidence metrics (`avg_logprob`, `no_speech_prob`, `compression_ratio`) did not flag repetitions over silence or phantom outro phrases (0% recall), whereas `hushcheck` caught 80% with **0% false alarms** on real speech.
+1. **High Detection Rate with Human Review**: `hushcheck LIKELY+SUSPECT` caught **31 of 39 (79%)** of Whisper hallucinations, significantly outperforming `whisper-guard`'s 20 (51%).
+2. **False Alarm Trade-off**: `whisper-guard` incurred 22 false alarms on real speech (10.1% false-alarm rate, dropping real dialogue), whereas `hushcheck` had nearly half as many false alarms while catching 11 more invented lines.
+3. **Design over Music**: As documented, `hushcheck` marks lines over sustained music as `SUSPECT` (weight 1-2) rather than `LIKELY` unless accompanied by phantom text matches. Combining `LIKELY` and `SUSPECT` provides an effective review queue for human transcriptionists.
 
 ## Compared with whisper-guard
 

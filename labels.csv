@@ -1,6 +1,13 @@
 file,start_s,end_s
 meeting_silence_2.wav,25.0,47.0
 meeting_silence_5.wav,15.0,40.0
+meeting_silence_7.wav,25.0,35.0
+meeting_silence_8.wav,10.0,35.0
+meeting_silence_9.wav,10.0,40.0
 podcast_intro_outro_1.wav,47.0,90.0
 podcast_intro_outro_2.wav,47.0,65.0
-
+podcast_outro_rep4.wav,15.0,80.0
+hallucination_loop1.wav,15.0,65.0
+hallucination_loop8.wav,10.0,70.0
+hallucination_loop9.wav,10.0,70.0
+hallucination_loop12.wav,10.0,70.0
