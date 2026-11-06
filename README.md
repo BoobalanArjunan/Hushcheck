@@ -4,7 +4,7 @@ Find transcript lines that a speech-to-text engine **invented** over silence or 
 
 Engines such as Whisper are known to write things like "Thank you for watching" or a plausible full sentence when nobody is talking. hushcheck takes the audio and its transcript (SRT, VTT, or Whisper-style JSON), looks at the sound under each line, and marks the lines that have no speech under them.
 
-**Status: alpha, 0.1.0a1.** Validated on both synthetic audio and real OpenAI Whisper recordings. See the benchmark comparison below against whisper-guard and text-only baselines.
+**Status: alpha, 0.1.0a1.** Tested on synthetic audio and semi-synthetic assembled clips. Not yet validated on a purely natural real-world recording corpus. See docs/REAL_DATA_CHECK.md.
 
 ## Use
 
@@ -57,9 +57,9 @@ The audio part is plain signal processing (energy in the speech band, loud versu
 - Over music, a line is LIKELY only when its text also matches the phrase list or another text reason; otherwise it stays SUSPECT by design.
 - All thresholds (15%, 35%, 0.20 pulse depth, weights) are provisional and untuned on real data.
 
-## Real-Data Benchmark: hushcheck vs whisper-guard
+## Synthetic Benchmark: Assembled Audio Evaluation (hushcheck vs whisper-guard)
 
-Evaluated on real OpenAI Whisper output across 43 audio files (meetings with long silences, podcasts with intro/outro music, calls with hold music, speech over background music, and clean speech) totaling 257 transcript lines (39 labelled invented, 218 real) using `scripts/real_data_check.py`:
+Evaluated on OpenAI Whisper output across 43 semi-synthetic assembled audio files (real human speech recordings spliced with generated silence, piano music, or background beds) totaling 257 transcript lines (39 labelled invented, 218 real) using `scripts/real_data_check.py`:
 
 | Method | Invented Caught | Invented Missed | False Alarms | Precision | Recall | False-Alarm Rate on Real Lines |
 |---|---|---|---|---|---|---|
