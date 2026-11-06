@@ -1,0 +1,110 @@
+{
+  "text": " They gained a high profile largely because of their outrageous costumes, but also because of their frequent work for charitable organizations. The Hogets have appeared in a national advertising campaign for Visa, and they provide support for many ch-",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.0,
+      "text": " They gained a high profile largely because of their outrageous costumes, but also because",
+      "tokens": [
+        50364,
+        814,
+        12634,
+        257,
+        1090,
+        7964,
+        11611,
+        570,
+        295,
+        641,
+        38685,
+        22695,
+        11,
+        457,
+        611,
+        570,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2677956333866826,
+      "compression_ratio": 1.4619883040935673,
+      "no_speech_prob": 0.17302098870277405
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.0,
+      "end": 8.36,
+      "text": " of their frequent work for charitable organizations.",
+      "tokens": [
+        50614,
+        295,
+        641,
+        18004,
+        589,
+        337,
+        44609,
+        6150,
+        13,
+        50782
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2677956333866826,
+      "compression_ratio": 1.4619883040935673,
+      "no_speech_prob": 0.17302098870277405
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.36,
+      "end": 14.34,
+      "text": " The Hogets have appeared in a national advertising campaign for Visa, and they provide support",
+      "tokens": [
+        50782,
+        440,
+        30553,
+        1385,
+        362,
+        8516,
+        294,
+        257,
+        4048,
+        13097,
+        5129,
+        337,
+        44907,
+        11,
+        293,
+        436,
+        2893,
+        1406,
+        51081
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2677956333866826,
+      "compression_ratio": 1.4619883040935673,
+      "no_speech_prob": 0.17302098870277405
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 14.34,
+      "end": 15.34,
+      "text": " for many ch-",
+      "tokens": [
+        51081,
+        337,
+        867,
+        417,
+        12,
+        51131
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2677956333866826,
+      "compression_ratio": 1.4619883040935673,
+      "no_speech_prob": 0.17302098870277405
+    }
+  ],
+  "language": "en"
+}

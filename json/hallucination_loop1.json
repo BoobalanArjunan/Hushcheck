@@ -1,0 +1,292 @@
+{
+  "text": " Wrth hyn, ni'n rhefadh wedi werth dod jeuau Bramwaith sydd o'r<|cy|>\u00fcst cy\u0440\u043e\u043col Wrthwedys wedi dweud fedr\uc5c8 Rwyf yn dryb ar y sul Ar Alison Mae Le Hip, dim wasg siw 1. 1. 2. 1. 2. 1. 2. 1. 2. 1. 2. 1.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.34,
+      "text": " Wrth hyn, ni'n rhefadh",
+      "tokens": [
+        50364,
+        10159,
+        392,
+        2477,
+        77,
+        11,
+        3867,
+        6,
+        77,
+        367,
+        675,
+        69,
+        46908,
+        50531
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.660220262480945,
+      "compression_ratio": 1.0903225806451613,
+      "no_speech_prob": 0.08227121829986572
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.34,
+      "end": 6.7,
+      "text": " wedi werth dod jeuau",
+      "tokens": [
+        50631,
+        6393,
+        72,
+        2612,
+        392,
+        13886,
+        1506,
+        84,
+        1459,
+        50699
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.660220262480945,
+      "compression_ratio": 1.0903225806451613,
+      "no_speech_prob": 0.08227121829986572
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7.5200000000000005,
+      "end": 9.36,
+      "text": " Bramwaith sydd o'r\u00fcst cy\u0440\u043e\u043col",
+      "tokens": [
+        50740,
+        1603,
+        335,
+        4151,
+        355,
+        943,
+        24810,
+        277,
+        6,
+        81,
+        50297,
+        44244,
+        3185,
+        21503,
+        401,
+        50832
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.660220262480945,
+      "compression_ratio": 1.0903225806451613,
+      "no_speech_prob": 0.08227121829986572
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.8,
+      "end": 11.4,
+      "text": " Wrthwedys wedi dweud fedr\uc5c8",
+      "tokens": [
+        50854,
+        10159,
+        392,
+        26896,
+        749,
+        6393,
+        72,
+        274,
+        826,
+        532,
+        4636,
+        81,
+        5642,
+        50934
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.660220262480945,
+      "compression_ratio": 1.0903225806451613,
+      "no_speech_prob": 0.08227121829986572
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.700000000000001,
+      "end": 12.74,
+      "text": " Rwyf yn dryb ar y sul",
+      "tokens": [
+        50949,
+        497,
+        9726,
+        69,
+        17861,
+        4016,
+        65,
+        594,
+        288,
+        262,
+        425,
+        51001
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.660220262480945,
+      "compression_ratio": 1.0903225806451613,
+      "no_speech_prob": 0.08227121829986572
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 12.76,
+      "end": 14.32,
+      "text": " Ar Alison Mae Le",
+      "tokens": [
+        51002,
+        1587,
+        41001,
+        31055,
+        1456,
+        51080
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.660220262480945,
+      "compression_ratio": 1.0903225806451613,
+      "no_speech_prob": 0.08227121829986572
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 14.32,
+      "end": 22.7,
+      "text": " Hip, dim wasg siw",
+      "tokens": [
+        51080,
+        29596,
+        11,
+        5013,
+        390,
+        70,
+        1511,
+        86,
+        51499
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -4.660220262480945,
+      "compression_ratio": 1.0903225806451613,
+      "no_speech_prob": 0.08227121829986572
+    },
+    {
+      "id": 7,
+      "seek": 3000,
+      "start": 30.0,
+      "end": 37.0,
+      "text": " 1. 1.",
+      "tokens": [
+        50364,
+        502,
+        13,
+        502,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8658106877253606,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 0.9552897810935974
+    },
+    {
+      "id": 8,
+      "seek": 3000,
+      "start": 37.0,
+      "end": 44.0,
+      "text": " 2. 1.",
+      "tokens": [
+        50714,
+        568,
+        13,
+        502,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8658106877253606,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 0.9552897810935974
+    },
+    {
+      "id": 9,
+      "seek": 3000,
+      "start": 44.0,
+      "end": 50.0,
+      "text": " 2. 1.",
+      "tokens": [
+        51064,
+        568,
+        13,
+        502,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8658106877253606,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 0.9552897810935974
+    },
+    {
+      "id": 10,
+      "seek": 3000,
+      "start": 50.0,
+      "end": 55.0,
+      "text": " 2. 1.",
+      "tokens": [
+        51364,
+        568,
+        13,
+        502,
+        13,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8658106877253606,
+      "compression_ratio": 1.4375,
+      "no_speech_prob": 0.9552897810935974
+    },
+    {
+      "id": 11,
+      "seek": 5500,
+      "start": 55.0,
+      "end": 60.0,
+      "text": " 2. 1.",
+      "tokens": [
+        50364,
+        568,
+        13,
+        502,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31314321664663464,
+      "compression_ratio": 0.6875,
+      "no_speech_prob": 0.6207005381584167
+    },
+    {
+      "id": 12,
+      "seek": 5500,
+      "start": 60.0,
+      "end": 65.0,
+      "text": " 2. 1.",
+      "tokens": [
+        50614,
+        568,
+        13,
+        502,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31314321664663464,
+      "compression_ratio": 0.6875,
+      "no_speech_prob": 0.6207005381584167
+    }
+  ],
+  "language": "cy"
+}

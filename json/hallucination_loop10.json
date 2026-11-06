@@ -1,0 +1,69 @@
+{
+  "text": " 1972 was the United States Marine Corps Chief Warrant Officer 3. He is one of two Marines to be captured as a prisoner of war, POW-20.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.64,
+      "text": " 1972 was the United States Marine Corps Chief Warrant Officer 3.",
+      "tokens": [
+        50364,
+        32952,
+        390,
+        264,
+        2824,
+        3040,
+        20415,
+        20169,
+        10068,
+        343,
+        2284,
+        394,
+        15434,
+        805,
+        13,
+        50646
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3795815016094007,
+      "compression_ratio": 1.1452991452991452,
+      "no_speech_prob": 0.08786443620920181
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.64,
+      "end": 10.0,
+      "text": " He is one of two Marines to be captured as a prisoner of war, POW-20.",
+      "tokens": [
+        50646,
+        634,
+        307,
+        472,
+        295,
+        732,
+        39331,
+        281,
+        312,
+        11828,
+        382,
+        257,
+        28114,
+        295,
+        1516,
+        11,
+        39272,
+        12,
+        2009,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3795815016094007,
+      "compression_ratio": 1.1452991452991452,
+      "no_speech_prob": 0.08786443620920181
+    }
+  ],
+  "language": "en"
+}

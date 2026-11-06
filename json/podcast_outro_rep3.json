@@ -1,0 +1,125 @@
+{
+  "text": " You know, we're not trying to bring about a world revolution. We're not political in that sense. To me, politicians have got no emotion. They don't care about anyone. They just want your power.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": " You know, we're not trying to bring about a world revolution.",
+      "tokens": [
+        50364,
+        509,
+        458,
+        11,
+        321,
+        434,
+        406,
+        1382,
+        281,
+        1565,
+        466,
+        257,
+        1002,
+        8894,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17834835052490233,
+      "compression_ratio": 1.4296296296296296,
+      "no_speech_prob": 0.22857381403446198
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.0,
+      "end": 6.0,
+      "text": " We're not political in that sense.",
+      "tokens": [
+        50564,
+        492,
+        434,
+        406,
+        3905,
+        294,
+        300,
+        2020,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17834835052490233,
+      "compression_ratio": 1.4296296296296296,
+      "no_speech_prob": 0.22857381403446198
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.0,
+      "end": 9.0,
+      "text": " To me, politicians have got no emotion.",
+      "tokens": [
+        50664,
+        1407,
+        385,
+        11,
+        14756,
+        362,
+        658,
+        572,
+        8913,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17834835052490233,
+      "compression_ratio": 1.4296296296296296,
+      "no_speech_prob": 0.22857381403446198
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9.0,
+      "end": 12.0,
+      "text": " They don't care about anyone.",
+      "tokens": [
+        50814,
+        814,
+        500,
+        380,
+        1127,
+        466,
+        2878,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17834835052490233,
+      "compression_ratio": 1.4296296296296296,
+      "no_speech_prob": 0.22857381403446198
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 12.0,
+      "end": 15.0,
+      "text": " They just want your power.",
+      "tokens": [
+        50964,
+        814,
+        445,
+        528,
+        428,
+        1347,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17834835052490233,
+      "compression_ratio": 1.4296296296296296,
+      "no_speech_prob": 0.22857381403446198
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,65 @@
+{
+  "text": " for charity. The group was founded in 1983 by Michael Torbert and became a regular fixture at the Redskins Games for nearly 30 years.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.5600000000000005,
+      "text": " for charity. The group was founded in 1983 by Michael Torbert and became a regular fixture",
+      "tokens": [
+        50364,
+        337,
+        16863,
+        13,
+        440,
+        1594,
+        390,
+        13234,
+        294,
+        31758,
+        538,
+        5116,
+        7160,
+        4290,
+        293,
+        3062,
+        257,
+        3890,
+        47680,
+        50692
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23133664972641887,
+      "compression_ratio": 1.1367521367521367,
+      "no_speech_prob": 0.1400415152311325
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.5600000000000005,
+      "end": 10.0,
+      "text": " at the Redskins Games for nearly 30 years.",
+      "tokens": [
+        50692,
+        412,
+        264,
+        4477,
+        5161,
+        1292,
+        12761,
+        337,
+        6217,
+        2217,
+        924,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23133664972641887,
+      "compression_ratio": 1.1367521367521367,
+      "no_speech_prob": 0.1400415152311325
+    }
+  ],
+  "language": "en"
+}

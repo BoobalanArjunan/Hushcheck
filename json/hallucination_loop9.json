@@ -1,0 +1,76 @@
+{
+  "text": " done on July 26, 2023. Felix James McCool, June 14, 1912 to December 20, thanks for watching!",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": " done on July 26, 2023.",
+      "tokens": [
+        50364,
+        1096,
+        322,
+        7370,
+        7551,
+        11,
+        44377,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5213750692514273,
+      "compression_ratio": 0.935064935064935,
+      "no_speech_prob": 0.17380239069461823
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.0,
+      "end": 10.0,
+      "text": " Felix James McCool, June 14, 1912 to December 20,",
+      "tokens": [
+        50564,
+        30169,
+        5678,
+        12061,
+        1092,
+        11,
+        6928,
+        3499,
+        11,
+        1294,
+        4762,
+        281,
+        7687,
+        945,
+        11,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5213750692514273,
+      "compression_ratio": 0.935064935064935,
+      "no_speech_prob": 0.17380239069461823
+    },
+    {
+      "id": 2,
+      "seek": 6000,
+      "start": 60.0,
+      "end": 70.0,
+      "text": " thanks for watching!",
+      "tokens": [
+        50364,
+        3231,
+        337,
+        1976,
+        0,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.8715360505240304,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 0.8943000435829163
+    }
+  ],
+  "language": "en"
+}

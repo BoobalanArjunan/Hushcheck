@@ -1,0 +1,73 @@
+{
+  "text": " This led to a proliferation of outdated personal computers and game consoles that had been abandoned by consumers as they upgraded to newer machines. They were in low demand by consumers as a whole.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 9.0,
+      "text": " This led to a proliferation of outdated personal computers and game consoles that had been abandoned by consumers as they upgraded to newer machines.",
+      "tokens": [
+        50364,
+        639,
+        4684,
+        281,
+        257,
+        24398,
+        44987,
+        295,
+        36313,
+        2973,
+        10807,
+        293,
+        1216,
+        28948,
+        300,
+        632,
+        668,
+        13732,
+        538,
+        11883,
+        382,
+        436,
+        24133,
+        281,
+        17628,
+        8379,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1170842761085147,
+      "compression_ratio": 1.5,
+      "no_speech_prob": 0.025504572317004204
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 9.0,
+      "end": 12.0,
+      "text": " They were in low demand by consumers as a whole.",
+      "tokens": [
+        50814,
+        814,
+        645,
+        294,
+        2295,
+        4733,
+        538,
+        11883,
+        382,
+        257,
+        1379,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1170842761085147,
+      "compression_ratio": 1.5,
+      "no_speech_prob": 0.025504572317004204
+    }
+  ],
+  "language": "en"
+}

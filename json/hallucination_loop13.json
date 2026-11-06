@@ -1,0 +1,89 @@
+{
+  "text": " We're an emotional band, we're about emotions, same what we think. We might be wrong, we might be right, who knows. But if we don't start people this...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.0,
+      "text": " We're an emotional band, we're about emotions, same what we think.",
+      "tokens": [
+        50364,
+        492,
+        434,
+        364,
+        6863,
+        4116,
+        11,
+        321,
+        434,
+        466,
+        8462,
+        11,
+        912,
+        437,
+        321,
+        519,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2954169167412652,
+      "compression_ratio": 1.345132743362832,
+      "no_speech_prob": 0.3148723244667053
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.0,
+      "end": 8.0,
+      "text": " We might be wrong, we might be right, who knows.",
+      "tokens": [
+        50664,
+        492,
+        1062,
+        312,
+        2085,
+        11,
+        321,
+        1062,
+        312,
+        558,
+        11,
+        567,
+        3255,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2954169167412652,
+      "compression_ratio": 1.345132743362832,
+      "no_speech_prob": 0.3148723244667053
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.0,
+      "end": 10.0,
+      "text": " But if we don't start people this...",
+      "tokens": [
+        50764,
+        583,
+        498,
+        321,
+        500,
+        380,
+        722,
+        561,
+        341,
+        485,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2954169167412652,
+      "compression_ratio": 1.345132743362832,
+      "no_speech_prob": 0.3148723244667053
+    }
+  ],
+  "language": "en"
+}

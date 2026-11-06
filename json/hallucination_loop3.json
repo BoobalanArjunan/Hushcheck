@@ -1,0 +1,87 @@
+{
+  "text": " Chip Tune from Wikipedia The Free Encyclopedia for the altering of car electronics see chip tuning. Chip tune, also known as chip music, is a style of synth...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.48,
+      "text": " Chip Tune from Wikipedia The Free Encyclopedia for the altering of car",
+      "tokens": [
+        50364,
+        29751,
+        314,
+        2613,
+        490,
+        28999,
+        440,
+        11551,
+        2193,
+        34080,
+        47795,
+        337,
+        264,
+        11337,
+        278,
+        295,
+        1032,
+        50638
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4481638087782749,
+      "compression_ratio": 1.2926829268292683,
+      "no_speech_prob": 0.0539715513586998
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.48,
+      "end": 11.56,
+      "text": " electronics see chip tuning. Chip tune, also known as chip music, is a style of",
+      "tokens": [
+        50638,
+        20611,
+        536,
+        11409,
+        15164,
+        13,
+        29751,
+        10864,
+        11,
+        611,
+        2570,
+        382,
+        11409,
+        1318,
+        11,
+        307,
+        257,
+        3758,
+        295,
+        50942
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4481638087782749,
+      "compression_ratio": 1.2926829268292683,
+      "no_speech_prob": 0.0539715513586998
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.56,
+      "end": 13.56,
+      "text": " synth...",
+      "tokens": [
+        50942,
+        10657,
+        485,
+        51042
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4481638087782749,
+      "compression_ratio": 1.2926829268292683,
+      "no_speech_prob": 0.0539715513586998
+    }
+  ],
+  "language": "en"
+}
