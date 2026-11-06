@@ -6,4 +6,6 @@ dist/
 real_check/
 .venv/
 .DS_Store
+cache_raw/
+
 
