@@ -11,7 +11,7 @@
 This protocol governs the single evaluation run on the authentic evaluation dataset. No thresholds will be altered after this evaluation runs.
 
 ### Claim (a): Auto-flag Mode (`LIKELY`)
-- **Metric 1 (False-Alarm Rate on Real Speech)**: False-alarm rate on real speech lines must be $\le 1.0\%$ point estimate, and the upper bound of the 95% Wilson score confidence interval must be $\le 2.5\%$. Evaluated on at least $N \ge 100$ real speech lines.
+- **Metric 1 (False-Alarm Rate on Real Speech)**: False-alarm rate on real speech lines must be $\le 1.0\%$ point estimate, and the upper bound of the 95% Wilson score confidence interval must be $\le 2.5\%$. Evaluated on **at least $N \ge 300$ real speech lines**. *(Mathematical note: at $N = 100$, even 0 false alarms yields a 95% Wilson upper bound of $3.7\%$, making the $\le 2.5\%$ requirement unreachable; at $N \ge 300$, 0 false alarms yields an upper bound of $1.25\%$ and 1 false alarm yields $1.85\%$, making the criterion statistically sound and attainable on real corpora).*
 - **Metric 2 (Recall on Silence / Near-Silence Inventions)**: Recall on hallucinations occurring over silence or near-silence ($< 15\%$ active sound) must be $\ge 80\%$ (lower bound of 95% Wilson interval $\ge 60\%$), evaluated on at least $N \ge 30$ silence/near-silence lines.
 - **Precision Metric Dropped**: As noted in peer review, precision depends heavily on the class balance of the test set (and is trivially 100% on pure non-speech audio). Claim (a) is therefore evaluated strictly via False-Alarm Rate on real speech and Recall on silence/near-silence inventions.
 
@@ -25,22 +25,33 @@ If both Claim (a) and Claim (b) pass, HushCheck proceeds toward release document
 
 ---
 
-## 2. Fixed Whisper Inference Specification
+## 2. Frozen Environment & Whisper Inference Specification
 
-To ensure run-to-run reproducibility and zero stochastic variance:
-- **Engine**: OpenAI Whisper (`openai-whisper==20250625`, PyTorch 2.15).
-- **Model**: `small` (`small.pt`, 461 MB).
+To ensure run-to-run reproducibility, complete immutability, and zero stochastic variance:
+- **Python Version**: Python 3.13.3 (macOS arm64).
+- **Core Library Versions (from `pip freeze`)**:
+  - `openai-whisper==20250625`
+  - `torch==2.15.0`
+  - `whisper-guard==0.3.3`
+  - `scipy==1.18.1`
+  - `numpy==2.5.4`
+  - `soundfile==0.14.0`
+- **Whisper Model**: `small` (`small.pt`, 461 MB).
 - **Decoding**: Greedy decoding (`temperature = 0`), zero sampling variance:
   ```bash
   whisper <audio_file> --model small --temperature 0 --output_format json --output_dir <dir>
   ```
-- **Fair Baseline**: The exact same JSON transcripts are evaluated by `hushcheck`, `whisper-guard`, and `text-only checks`.
+- **Fair Baseline**: The exact same raw JSON transcripts are saved to disk and evaluated by `hushcheck`, `whisper-guard`, and `text-only checks`.
+- **Single-Execution Invariant**: The evaluation script is run **exactly once** on the saved raw transcripts. No post-hoc rerun or secondary threshold tuning is allowed.
+- **Git Freeze Tag**: Tagged as `eval-spec-v1` covering this specification document and the implementation of Fix A (`LOW_SPEECH_BELOW = 0.28`).
 
 ---
 
 ## 3. Authentic Evaluation Corpus & Sizing
 
-The evaluation set will contain **at least 100 invented lines** and **at least 100 real lines** across multiple independent recordings.
+The evaluation set will contain **at least 100 invented lines** and **at least 300 real speech lines** across multiple independent recordings.
+- **Statistical Inconclusive Rule**: Pure music and noise may produce few invented lines if Whisper outputs nothing. If the total number of invented lines across the entire test set falls under 100, the result will be reported explicitly as **inconclusive** due to sample size limits.
+- **Ambiguity Reporting**: All lines falling in the ambiguous overlap zone ($20\% \le \text{overlap} < 50\%$) will be logged with timestamps and included in the final report.
 
 | Category | Dataset / Sources | Volume | Description & License |
 |---|---|---|---|
