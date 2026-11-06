@@ -98,6 +98,8 @@ def main():
         raw = json.loads(jp.read_text(encoding="utf-8"))
         raw = raw["segments"] if isinstance(raw, dict) else raw
         raw = [d for d in raw if str(d.get("text", "")).strip()]
+        if not raw:
+            continue
         segs = parse_json(json.dumps(raw), jp.name)
         an = analyse_segments(segs, load_audio(ap_), ap_.name)
         by_idx = {f.index: f for f in an.findings}

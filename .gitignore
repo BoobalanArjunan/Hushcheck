@@ -3,7 +3,7 @@ __pycache__/
 .pytest_cache/
 build/
 dist/
-real_check/
+!real_check/results.md
 .venv/
 .DS_Store
 cache_raw/
