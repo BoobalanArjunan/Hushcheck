@@ -1,90 +1,192 @@
-file,index,start,end,duration,overlap_ratio,text,hush_level,whisper_guard,text_only
-ES2002a.Mix-Headset,14,99.00,105.00,6.00,0.478,"So that's David, Andrew and Greg, isn't it?",OK,False,False
-ES2002a.Mix-Headset,30,168.00,171.00,3.00,0.280,Very good.,OK,False,False
-ES2002a.Mix-Headset,31,171.00,176.00,5.00,0.360,All right.,OK,False,False
-ES2002a.Mix-Headset,32,176.00,183.00,7.00,0.234,"So this one here, right?",OK,False,False
-ES2002a.Mix-Headset,47,275.00,286.00,11.00,0.220,Nice.,OK,False,False
-ES2002a.Mix-Headset,53,307.00,312.00,5.00,0.462,Impressionist.,OK,False,False
-ES2002a.Mix-Headset,63,349.00,355.00,6.00,0.387,Superb sketch by the way.,OK,False,False
-ES2002a.Mix-Headset,67,367.00,373.00,6.00,0.270,That doesn't really look like him actually.,OK,False,False
-ES2002a.Mix-Headset,68,373.00,378.00,5.00,0.370,He looks more like a pig actually.,OK,False,False
-ES2002a.Mix-Headset,70,380.00,382.00,2.00,0.485,Oh that's very good of you.,OK,False,False
-ES2002a.Mix-Headset,72,393.00,395.00,2.00,0.460,What kind is it?,OK,False,False
-ES2002a.Mix-Headset,88,455.00,460.00,5.00,0.466,Okay.,OK,False,False
-ES2002a.Mix-Headset,129,647.00,660.00,13.00,0.350,Right away I'm making some kind of assumptions about what information we're given here.,OK,False,False
-ES2002a.Mix-Headset,196,1021.00,1022.00,1.00,0.450,Yeah.,OK,False,False
-ES2002a.Mix-Headset,199,1033.00,1041.00,8.00,0.488,I got that little message a lot sooner than I thought I would.,OK,False,False
-ES2002a.Mix-Headset,200,1041.00,1048.00,7.00,0.343,"Before we wrap up, just to make sure we're all on the same page here.",OK,False,False
-ES2002a.Mix-Headset,217,1095.00,1096.00,1.00,0.220,Okay.,SUSPECT,False,True
-ES2002a.Mix-Headset,223,1109.00,1110.00,1.00,0.450,Right.,OK,False,False
-IS1000a.Mix-Headset,7,94.00,105.00,11.00,0.460,We will wait for a few minutes.,OK,False,False
-IS1000a.Mix-Headset,8,105.00,111.00,6.00,0.462,Use as well.,SUSPECT,False,False
-IS1000a.Mix-Headset,11,117.00,123.00,6.00,0.295,It is not a directional mic anyway.,OK,False,False
-IS1000a.Mix-Headset,14,133.00,142.00,9.00,0.248,Yeah.,OK,False,False
-IS1000a.Mix-Headset,15,142.00,162.00,20.00,0.351,Okay.,OK,True,False
-IS1000a.Mix-Headset,18,168.00,174.00,6.00,0.467,This is normal.,OK,False,False
-IS1000a.Mix-Headset,20,179.00,184.00,5.00,0.438,Wait a minute.,SUSPECT,False,False
-IS1000a.Mix-Headset,24,213.00,224.00,11.00,0.327,You can clip it somewhere.,OK,False,False
-IS1000a.Mix-Headset,25,224.00,229.00,5.00,0.446,Good morning everyone.,OK,False,False
-IS1000a.Mix-Headset,28,237.00,238.00,1.00,0.340,Yeah.,OK,False,False
-IS1000a.Mix-Headset,71,501.00,507.00,6.00,0.403,So I would suggest...,OK,False,False
-IS1000a.Mix-Headset,84,551.00,553.00,2.00,0.420,Doesn't it work?,OK,False,False
-IS1000a.Mix-Headset,91,581.00,583.00,2.00,0.405,That's not it.,OK,False,False
-IS1000a.Mix-Headset,92,584.00,586.00,2.00,0.385,There we go.,OK,False,False
-IS1000a.Mix-Headset,100,625.00,628.00,3.00,0.417,"Okay, it's like a pet animal.",OK,False,False
-IS1000a.Mix-Headset,101,635.00,637.00,2.00,0.230,Like a cat.,OK,False,False
-IS1000a.Mix-Headset,102,637.00,639.00,2.00,0.205,Yeah.,SUSPECT,False,False
-IS1000a.Mix-Headset,105,644.00,646.00,2.00,0.385,What is this now?,OK,False,False
-IS1000a.Mix-Headset,108,660.00,662.00,2.00,0.310,Yeah.,SUSPECT,False,False
-IS1000a.Mix-Headset,111,669.00,673.00,4.00,0.445,"Man, these wires, you know, we need a wireless microphone.",OK,False,False
-IS1000a.Mix-Headset,135,751.00,752.00,1.00,0.470,It's a horse.,OK,False,False
-IS1000a.Mix-Headset,144,784.00,786.00,2.00,0.420,Yes.,OK,False,False
-IS1000a.Mix-Headset,157,843.00,845.00,2.00,0.440,A mouse?,SUSPECT,True,False
-IS1000a.Mix-Headset,161,855.00,857.00,2.00,0.500,It's a baby.,OK,False,False
-IS1000a.Mix-Headset,164,865.00,867.00,2.00,0.445,"Yes, some cats, because...",OK,False,False
-IS1000a.Mix-Headset,199,987.00,989.00,2.00,0.250,So...,SUSPECT,False,False
-IS1000a.Mix-Headset,320,1388.00,1391.00,3.00,0.487,"We can leave that out, I think.",OK,False,False
-IS1000a.Mix-Headset,334,1434.00,1435.00,1.00,0.370,Yeah.,OK,False,False
-IS1000a.Mix-Headset,336,1442.00,1443.00,1.00,0.410,Okay.,OK,False,False
-IS1000a.Mix-Headset,340,1449.00,1450.00,1.00,0.470,And...,OK,False,False
-IS1000a.Mix-Headset,342,1454.00,1458.00,4.00,0.300,Yeah.,SUSPECT,False,True
-IS1000a.Mix-Headset,348,1478.00,1480.00,2.00,0.250,"Yeah, sure.",SUSPECT,False,False
-IS1000a.Mix-Headset,352,1497.00,1498.00,1.00,0.360,So...,OK,False,False
-IS1000a.Mix-Headset,355,1510.00,1511.00,1.00,0.370,Yep.,OK,False,False
-TS3003a.Mix-Headset,7,24.00,36.00,12.00,0.324,Let's see.,OK,False,False
-TS3003a.Mix-Headset,14,48.00,50.00,2.00,0.220,Thank you.,OK,False,False
-TS3003a.Mix-Headset,16,54.00,66.00,12.00,0.423,Let's start off with a little presentation.,OK,False,False
-TS3003a.Mix-Headset,28,99.00,107.00,8.00,0.322,I'll start with the presentation kickoff.,SUSPECT,False,False
-TS3003a.Mix-Headset,31,112.00,117.00,5.00,0.418,Let's do it read only.,OK,False,False
-TS3003a.Mix-Headset,40,140.00,144.00,4.00,0.438,This is our agenda.,OK,False,False
-TS3003a.Mix-Headset,56,194.00,198.00,4.00,0.487,I'll see if it works this way.,OK,False,False
-TS3003a.Mix-Headset,110,447.00,452.00,5.00,0.494,You can switch between the different drawings.,OK,False,False
-TS3003a.Mix-Headset,144,651.00,658.00,7.00,0.313,I don't know. Just trying.,OK,False,False
-TS3003a.Mix-Headset,148,692.00,700.00,8.00,0.207,It lives for the fun.,SUSPECT,False,False
-TS3003a.Mix-Headset,153,721.00,724.00,3.00,0.410,I'm going to use a different line.,OK,False,False
-TS3003a.Mix-Headset,154,724.00,732.00,8.00,0.483,I'm going to draw in black.,SUSPECT,False,False
-TS3003a.Mix-Headset,155,732.00,743.00,11.00,0.349,"I'm not much of an artist, but here we go.",SUSPECT,False,False
-TS3003a.Mix-Headset,159,806.00,820.00,14.00,0.309,It's nice.,SUSPECT,True,False
-TS3003a.Mix-Headset,160,820.00,835.00,15.00,0.293,"With a blue dot, they always get sprayed on their butts.",OK,False,False
-TS3003a.Mix-Headset,174,965.00,970.00,5.00,0.420,Okay.,OK,False,False
-TS3003a.Mix-Headset,179,977.00,994.00,17.00,0.331,Yeah.,SUSPECT,False,False
-TS3003a.Mix-Headset,187,1046.00,1057.00,11.00,0.489,"This is your cat, or did you find him on the street?",OK,False,False
-TS3003a.Mix-Headset,189,1060.00,1072.00,12.00,0.241,I like cats because they are independent.,SUSPECT,False,False
-TS3003a.Mix-Headset,190,1072.00,1084.00,12.00,0.259,Okay.,LIKELY,False,False
-TS3003a.Mix-Headset,195,1095.00,1102.00,7.00,0.411,It's pretty easy.,OK,False,False
-TS3003a.Mix-Headset,228,1220.00,1223.00,3.00,0.420,Does it do anything?,OK,False,False
-TS3003a.Mix-Headset,230,1224.00,1228.00,4.00,0.382,Maybe you have to just clap it down.,SUSPECT,False,False
-TS3003a.Mix-Headset,261,1318.00,1323.00,5.00,0.488,And then the thing.,OK,False,False
-TS3003a.Mix-Headset,263,1334.00,1336.00,2.00,0.455,Yeah.,SUSPECT,False,True
-TS3003a.Mix-Headset,269,1346.00,1347.00,1.00,0.470,Yeah.,SUSPECT,False,True
-TS3003a.Mix-Headset,281,1386.00,1389.00,3.00,0.253,What a proof.,SUSPECT,False,False
-TS3003a.Mix-Headset,282,1389.00,1390.00,1.00,0.240,Okay.,SUSPECT,False,False
-TS3003a.Mix-Headset,291,1412.00,1415.00,3.00,0.270,How much is left in the battery.,LIKELY,False,False
-TS3003a.Mix-Headset,294,1419.00,1422.00,3.00,0.447,So we'll have to see about that too.,OK,False,False
-TS3003a.Mix-Headset,296,1424.00,1426.00,2.00,0.375,I don't know.,OK,False,False
-TS3003a.Mix-Headset,298,1427.00,1429.00,2.00,0.460,Other ideas?,SUSPECT,False,False
-TS3003a.Mix-Headset,302,1437.00,1440.00,3.00,0.450,Click of presentation.,OK,False,False
-TS3003a.Mix-Headset,304,1441.00,1443.00,2.00,0.480,I don't think so.,OK,False,False
-TS3003a.Mix-Headset,305,1443.00,1444.00,1.00,0.240,No.,SUSPECT,False,False
-TS3003a.Mix-Headset,308,1449.00,1452.00,3.00,0.463,And then we can all work.,OK,False,False
-TS3003a.Mix-Headset,316,1476.00,1477.00,1.00,0.390,Yep.,OK,False,False
+recording,start,end,text,hc2_level,hc2_score,wg_flag
+EN2003a.Mix-Headset,69.00,72.00,And you can go on both sides as well.,OK,0,False
+EN2003a.Mix-Headset,73.00,74.00,Okay.,OK,0,False
+EN2003a.Mix-Headset,79.00,81.00,What have we got?,OK,0,False
+EN2003a.Mix-Headset,106.00,110.00,And I'll do that by...,SUSPECT,1,False
+EN2003a.Mix-Headset,280.00,282.00,Probably.,SUSPECT,1,False
+EN2003a.Mix-Headset,350.00,355.00,Yes.,SUSPECT,1,False
+EN2003a.Mix-Headset,493.00,497.00,And then give it a 20 minute break perhaps.,OK,0,False
+EN2003a.Mix-Headset,532.00,535.00,What's in the morning place in the afternoon?,SUSPECT,1,False
+EN2003a.Mix-Headset,597.00,604.00,How many second and third year students are there?,SUSPECT,1,False
+EN2003a.Mix-Headset,685.00,694.00,"We're also going to be having posters, aren't we?",SUSPECT,1,False
+EN2003a.Mix-Headset,798.00,799.00,Yeah.,OK,0,False
+EN2003a.Mix-Headset,806.00,809.00,At least six.,SUSPECT,1,False
+EN2003a.Mix-Headset,942.00,944.00,"It would be a bit off, wouldn't it?",SUSPECT,1,False
+EN2003a.Mix-Headset,1073.00,1075.00,Okay.,SUSPECT,1,False
+EN2003a.Mix-Headset,1216.00,1225.00,Yeah.,SUSPECT,1,False
+EN2003a.Mix-Headset,1559.00,1566.00,"And then, okay. As much as possible anyway.",OK,0,False
+EN2003a.Mix-Headset,1618.00,1620.00,End of March.,SUSPECT,1,False
+EN2003a.Mix-Headset,1657.00,1664.00,I think I'm coming back. I'm trying to get this right.,OK,0,False
+EN2003a.Mix-Headset,1768.00,1774.00,It's sometimes an issue I think.,OK,0,False
+EN2003a.Mix-Headset,1859.00,1864.00,"You're going to send that, Ben, crazy.",OK,0,False
+EN2003a.Mix-Headset,1890.00,1892.00,Mm-hmm.,SUSPECT,1,False
+EN2003a.Mix-Headset,1928.00,1930.00,Does that sound reasonable?,OK,0,False
+EN2003a.Mix-Headset,1997.00,2002.00,We were given...,SUSPECT,1,False
+EN2003a.Mix-Headset,2066.00,2067.00,I mean...,OK,0,False
+EN2003a.Mix-Headset,2205.00,2211.00,But I'll try and get a good address to send it to.,OK,0,False
+EN2004a.Mix-Headset,6.00,7.00,Okay.,LIKELY,3,False
+EN2004a.Mix-Headset,983.00,985.00,Oops.,SUSPECT,1,False
+EN2004a.Mix-Headset,1099.00,1104.00,Here's...,SUSPECT,1,False
+EN2004a.Mix-Headset,1111.00,1112.00,Mm-hmm.,OK,0,False
+EN2004a.Mix-Headset,1168.00,1169.00,Here's a...,OK,0,False
+EN2004a.Mix-Headset,1200.00,1202.00,"Okay, okay.",OK,0,False
+EN2004a.Mix-Headset,1202.00,1204.00,Okay.,SUSPECT,2,False
+EN2004a.Mix-Headset,1209.00,1214.00,"So, that kind of thing.",SUSPECT,1,False
+EN2004a.Mix-Headset,1419.00,1421.00,Okay.,SUSPECT,1,False
+EN2004a.Mix-Headset,1514.00,1516.00,That's right.,SUSPECT,1,False
+EN2004a.Mix-Headset,1653.00,1655.00,I want to point out...,SUSPECT,1,False
+EN2004a.Mix-Headset,1664.00,1667.00,"Oh, he's got a...",LIKELY,3,False
+EN2004a.Mix-Headset,1850.00,1863.00,"So, there's another case where there wasn't a space between.",OK,0,False
+EN2004a.Mix-Headset,1863.00,1866.00,A non-word fragment.,OK,0,False
+EN2004a.Mix-Headset,1964.00,1970.00,Um.,SUSPECT,2,False
+EN2004a.Mix-Headset,1970.00,1973.00,Um.,SUSPECT,1,False
+EN2004a.Mix-Headset,2002.00,2004.00,Okay.,SUSPECT,1,False
+EN2004a.Mix-Headset,2004.00,2006.00,Hyphen's all commas.,OK,0,False
+EN2004a.Mix-Headset,2011.00,2013.00,Um.,OK,0,False
+EN2004a.Mix-Headset,2141.00,2143.00,I'm all the way.,OK,0,False
+EN2004a.Mix-Headset,2153.00,2155.00,I hear the well there.,OK,0,False
+EN2004a.Mix-Headset,2555.00,2556.00,Okay.,SUSPECT,1,False
+EN2004a.Mix-Headset,2614.00,2621.00,"So, any missed speech.",OK,0,False
+EN2004a.Mix-Headset,2680.00,2687.00,False starts.,OK,0,False
+EN2004a.Mix-Headset,2695.00,2699.00,Short words and word fragments.,OK,0,False
+EN2004a.Mix-Headset,2699.00,2708.00,Those are the commonly missed things.,OK,0,False
+EN2005a.Mix-Headset,9.00,13.00,Aren't they suing him?,OK,0,False
+EN2005a.Mix-Headset,55.00,59.00,"Yeah, everything is okay.",OK,0,False
+EN2005a.Mix-Headset,59.00,65.00,Are we supposed to count to ten or something?,OK,0,False
+EN2005a.Mix-Headset,67.00,69.00,"Yeah, it's a little more like that.",SUSPECT,1,False
+EN2005a.Mix-Headset,75.00,95.00,Okay.,SUSPECT,2,False
+EN2005a.Mix-Headset,1071.00,1072.00,So...,OK,0,False
+ES2004a.Mix-Headset,0.00,16.00,We're not allowed to dim lights so we can see that a little better.,OK,0,False
+ES2004a.Mix-Headset,18.00,19.00,That's fine.,OK,0,False
+ES2004a.Mix-Headset,28.00,30.00,She can own some people.,SUSPECT,1,False
+ES2004a.Mix-Headset,33.00,34.00,Yeah.,OK,0,False
+ES2004a.Mix-Headset,42.00,43.00,Good.,OK,0,False
+ES2004a.Mix-Headset,43.00,65.00,Okay.,SUSPECT,3,True
+ES2004a.Mix-Headset,184.00,189.00,"So, okay.",OK,0,False
+ES2004a.Mix-Headset,244.00,245.00,Okay.,SUSPECT,2,False
+ES2004a.Mix-Headset,245.00,248.00,I'm not going to ask you to guess.,SUSPECT,1,False
+ES2004a.Mix-Headset,252.00,269.00,And I see them as majestic and independent and proud.,OK,0,False
+ES2004a.Mix-Headset,269.00,274.00,"No, we'd like to go next.",OK,0,False
+ES2004a.Mix-Headset,279.00,281.00,There you go.,OK,0,False
+ES2004a.Mix-Headset,306.00,309.00,Yeah.,OK,0,False
+ES2004a.Mix-Headset,309.00,314.00,It's actually sitting.,SUSPECT,1,False
+ES2004a.Mix-Headset,351.00,352.00,Thank you.,OK,0,False
+ES2004a.Mix-Headset,366.00,371.00,I have to go and sign a bit random.,OK,0,False
+ES2004a.Mix-Headset,379.00,380.00,Okay.,OK,0,False
+ES2004a.Mix-Headset,383.00,386.00,like a beak now.,OK,0,False
+ES2004a.Mix-Headset,411.00,426.00,And I have to think on the spot of things that it is.,OK,0,False
+ES2004a.Mix-Headset,434.00,435.00,Okay.,OK,0,False
+ES2004a.Mix-Headset,452.00,455.00,I'll hold that click in.,OK,0,False
+ES2004a.Mix-Headset,462.00,467.00,Hopefully that'll stay on.,SUSPECT,1,False
+ES2004a.Mix-Headset,470.00,476.00,"Again, this is off the top of my head.",OK,0,False
+ES2004a.Mix-Headset,479.00,480.00,I don't know.,SUSPECT,2,True
+ES2004a.Mix-Headset,488.00,489.00,I don't know.,LIKELY,4,True
+ES2004a.Mix-Headset,491.00,492.00,I don't know.,SUSPECT,3,True
+ES2004a.Mix-Headset,553.00,554.00,I don't know.,SUSPECT,3,True
+ES2004a.Mix-Headset,558.00,559.00,I don't know.,SUSPECT,3,True
+ES2004a.Mix-Headset,559.00,560.00,I don't know.,SUSPECT,3,True
+ES2004a.Mix-Headset,561.00,562.00,I don't know.,SUSPECT,3,True
+ES2004a.Mix-Headset,629.00,630.00,I don't know.,LIKELY,4,True
+ES2004a.Mix-Headset,651.00,652.00,I don't know.,SUSPECT,3,True
+ES2004a.Mix-Headset,670.00,671.00,I don't know.,SUSPECT,3,True
+ES2004a.Mix-Headset,1042.00,1046.00,So see you in half an hour.,OK,0,False
+IS1003a.Mix-Headset,131.00,135.00,So the project method is the following.,OK,0,False
+IS1003a.Mix-Headset,289.00,290.00,Okay.,OK,0,False
+IS1003a.Mix-Headset,300.00,301.00,Good.,OK,0,False
+IS1003a.Mix-Headset,306.00,309.00,Not really.,OK,0,False
+IS1003a.Mix-Headset,392.00,393.00,Okay.,OK,0,False
+IS1003a.Mix-Headset,394.00,396.00,I am the industrial designer.,OK,0,False
+IS1003a.Mix-Headset,399.00,400.00,Okay.,SUSPECT,1,False
+IS1003a.Mix-Headset,400.00,401.00,Okay.,SUSPECT,1,False
+IS1003a.Mix-Headset,401.00,403.00,So and the marketing expert will...,OK,0,False
+IS1003a.Mix-Headset,472.00,473.00,Okay.,SUSPECT,1,False
+IS1003a.Mix-Headset,473.00,476.00,So is it okay?,OK,0,False
+IS1003a.Mix-Headset,476.00,481.00,It's clear.,OK,0,False
+IS1003a.Mix-Headset,496.00,501.00,"I was thinking, but I'm not sure.",OK,0,False
+IS1003a.Mix-Headset,522.00,536.00,"Oh, it's the same as mine.",OK,0,False
+IS1003a.Mix-Headset,540.00,542.00,It's a fat cat.,OK,0,False
+IS1003a.Mix-Headset,542.00,549.00,It's not a fat cat.,OK,0,False
+IS1003a.Mix-Headset,550.00,551.00,Okay.,OK,0,False
+IS1003a.Mix-Headset,565.00,566.00,Yeah.,OK,0,False
+IS1003a.Mix-Headset,590.00,592.00,"Oh, duck.",OK,0,False
+IS1003a.Mix-Headset,594.00,598.00,These are the eyes.,OK,0,False
+IS1003a.Mix-Headset,603.00,606.00,It's a rabbit.,SUSPECT,1,False
+IS1003a.Mix-Headset,606.00,608.00,Pikachu.,OK,0,False
+IS1003a.Mix-Headset,616.00,618.00,A bug-spunny one.,OK,0,False
+IS1003a.Mix-Headset,629.00,631.00,I go.,SUSPECT,1,False
+IS1003a.Mix-Headset,648.00,653.00,A fish?,OK,0,False
+IS1003a.Mix-Headset,654.00,656.00,That's a fish.,SUSPECT,1,False
+IS1003a.Mix-Headset,678.00,680.00,Careful.,SUSPECT,1,False
+IS1003a.Mix-Headset,702.00,704.00,Titi no.,SUSPECT,1,True
+IS1003a.Mix-Headset,714.00,716.00,Titi no.,LIKELY,4,True
+IS1003a.Mix-Headset,732.00,734.00,Titi no.,SUSPECT,1,False
+IS1003a.Mix-Headset,744.00,746.00,Titi no.,LIKELY,3,False
+IS1003a.Mix-Headset,750.00,752.00,It's a very crazy dog.,OK,0,False
+IS1003a.Mix-Headset,780.00,782.00,We have to present the project.,OK,0,False
+IS1003a.Mix-Headset,790.00,792.00,Yeah.,OK,0,False
+IS1003a.Mix-Headset,794.00,796.00,Hmm.,OK,0,False
+IS1003a.Mix-Headset,796.00,798.00,What time is it?,SUSPECT,1,False
+IS1003a.Mix-Headset,814.00,816.00,"Yeah, so, yeah.",OK,0,False
+TS3004a.Mix-Headset,22.00,24.00,Ik heb het al gezien.,LIKELY,4,True
+TS3004a.Mix-Headset,24.00,26.00,Ik heb het al gezien.,SUSPECT,3,True
+TS3004a.Mix-Headset,44.00,46.00,Ik heb het al gezien.,SUSPECT,3,True
+TS3004a.Mix-Headset,60.00,62.00,Ik heb het al gezien.,LIKELY,4,True
+TS3004a.Mix-Headset,86.00,88.00,Ik weet het niet.,OK,0,False
+TS3004a.Mix-Headset,94.00,96.00,Ik denk dat het werkt.,SUSPECT,1,False
+TS3004a.Mix-Headset,96.00,98.00,"Test, test.",OK,0,False
+TS3004a.Mix-Headset,118.00,120.00,edgy is.,SUSPECT,1,False
+TS3004a.Mix-Headset,122.00,124.00,presentatie gemaakt.,OK,0,False
+TS3004a.Mix-Headset,128.00,130.00,Dus je kunt ook wat dingen inzetten.,OK,0,False
+TS3004a.Mix-Headset,142.00,144.00,Ik weet niet of het werkt.,SUSPECT,1,False
+TS3004a.Mix-Headset,164.00,166.00,Dus,SUSPECT,1,False
+TS3004a.Mix-Headset,238.00,240.00,van dat.,SUSPECT,1,False
+TS3004a.Mix-Headset,254.00,256.00,we gaan kijken.,SUSPECT,1,False
+TS3004a.Mix-Headset,264.00,266.00,...,SUSPECT,2,False
+TS3004a.Mix-Headset,284.00,286.00,zikken van de band.,SUSPECT,1,False
+TS3004a.Mix-Headset,302.00,304.00,Format,SUSPECT,1,False
+TS3004a.Mix-Headset,310.00,312.00,Het is,SUSPECT,1,False
+TS3004a.Mix-Headset,336.00,338.00,Het is een,SUSPECT,1,False
+TS3004a.Mix-Headset,348.00,350.00,Het ziet eruit.,OK,0,False
+TS3004a.Mix-Headset,350.00,352.00,En,OK,0,False
+TS3004a.Mix-Headset,354.00,356.00,Het ziet eruit.,SUSPECT,1,False
+TS3004a.Mix-Headset,360.00,362.00,Een pink element.,OK,0,False
+TS3004a.Mix-Headset,372.00,374.00,Ik ga deze laten.,OK,0,False
+TS3004a.Mix-Headset,380.00,382.00,Oké.,SUSPECT,1,False
+TS3004a.Mix-Headset,386.00,388.00,voor je jongens,SUSPECT,1,False
+TS3004a.Mix-Headset,402.00,404.00,een banding gebruiken.,OK,0,False
+TS3004a.Mix-Headset,408.00,410.00,Dat is in format.,OK,0,False
+TS3004a.Mix-Headset,440.00,442.00,En nu,SUSPECT,2,False
+TS3004a.Mix-Headset,444.00,446.00,de animal,SUSPECT,1,False
+TS3004a.Mix-Headset,484.00,486.00,Dit is zo,SUSPECT,1,False
+TS3004a.Mix-Headset,488.00,490.00,mooi.,OK,0,False
+TS3004a.Mix-Headset,520.00,522.00,"Wel, Paul.",SUSPECT,1,False
+TS3004a.Mix-Headset,536.00,538.00,Let's make it.,OK,0,False
+TS3004a.Mix-Headset,544.00,546.00,Een doek.,SUSPECT,1,False
+TS3004a.Mix-Headset,574.00,576.00,Een doek.,SUSPECT,2,True
+TS3004a.Mix-Headset,598.00,600.00,Je hebt een fantasie.,OK,0,False
+TS3004a.Mix-Headset,600.00,602.00,"Nee, niet te snel.",SUSPECT,1,False
+TS3004a.Mix-Headset,608.00,610.00,Ik draai het gewoon te snel.,SUSPECT,1,False
+TS3004a.Mix-Headset,666.00,668.00,"Oeh, oké.",SUSPECT,1,False
+TS3004a.Mix-Headset,684.00,686.00,Ik denk dat het goed is.,LIKELY,4,True
+TS3004a.Mix-Headset,686.00,688.00,Ik denk dat het goed is.,SUSPECT,3,True
+TS3004a.Mix-Headset,698.00,700.00,Ik denk dat het goed is.,LIKELY,4,True
+TS3004a.Mix-Headset,712.00,714.00,Ik denk dat het goed is.,LIKELY,6,True
+TS3004a.Mix-Headset,734.00,736.00,Ik denk dat het goed is.,SUSPECT,3,True
+TS3004a.Mix-Headset,744.00,746.00,Ik denk dat het goed is.,SUSPECT,3,True
+TS3004a.Mix-Headset,752.00,754.00,Ik denk dat het goed is.,SUSPECT,3,True
+TS3004a.Mix-Headset,760.00,762.00,Ik denk dat het goed is.,LIKELY,4,True
+TS3004a.Mix-Headset,794.00,796.00,Ik denk dat het goed is.,SUSPECT,3,True
+TS3004a.Mix-Headset,820.00,822.00,Perfect.,OK,0,False
+TS3004a.Mix-Headset,845.00,847.00,We kunnen het speciaal maken.,OK,0,False
+TS3004a.Mix-Headset,915.00,917.00,Dat is niet zo groot.,SUSPECT,2,False
+TS3004a.Mix-Headset,923.00,925.00,Dat is niet zo groot.,SUSPECT,2,False
+TS3004a.Mix-Headset,943.00,945.00,En unieker.,SUSPECT,1,False
+TS3004a.Mix-Headset,945.00,947.00,Dat is meer trendig.,OK,0,False
+TS3004a.Mix-Headset,986.00,988.00,En klein.,SUSPECT,1,False
+TS3004a.Mix-Headset,1236.00,1240.00,Dus je weet wat je moet doen?,OK,0,False
+TS3004a.Mix-Headset,1240.00,1242.00,Oké.,SUSPECT,1,False
+TS3004a.Mix-Headset,1273.00,1274.00,Oké.,OK,0,False
+TS3004a.Mix-Headset,1284.00,1285.00,Ja.,SUSPECT,1,False
+TS3004a.Mix-Headset,1294.00,1296.00,"Ja, ik ook.",SUSPECT,1,False
+TS3004a.Mix-Headset,1311.00,1313.00,Ik heb dat niet gezegd.,OK,0,False
+TS3004a.Mix-Headset,1317.00,1319.00,Ciao.,OK,0,False
