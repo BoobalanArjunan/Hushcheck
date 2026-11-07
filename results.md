@@ -1,84 +1,145 @@
-# Authentic Benchmark Results: HushCheck vs. Whisper-Guard
+# HushCheck 2 Evaluation Report (EVAL)
 
-**Protocol Tag**: `eval-spec-v2`  
-**Execution Timestamp**: November 2026  
-**Execution Status**: Single Run Completed (Frozen Specification)
+**Date:** 2026-11-07T10:52:19
+**Governing Rule:** `docs/HUSHCHECK2_EVALUATION_RULE.md` (Tag: `eval-spec-hc2-v1`)
+**Status:** STOPPED
 
----
-
-## 1. Executive Summary & Verdict
-
-| Claim | Locked Criterion | Observed Result | Status |
-|---|---|---|---|
-| **Claim (a): Auto-flag (`LIKELY`)** | FAR $\le 1.0\%$ (95% upper bound $\le 2.5\%$ on $N \ge 300$), Silence Recall $\ge 80\%$ ($N \ge 30$) | FAR: 0.1% (0.0–0.7%) (1/758 FAs). Silence Recall: 53.3% (47.2–59.3%) (137/257). | **FAIL** |
-| **Claim (b): Review (`LIKELY+SUSPECT`)** | Recall clearly higher than whisper-guard (non-overlapping 95% Wilson intervals), FAR $\le$ whisper-guard's, Recall > text-only ($N \ge 100$) | Review Recall: 91.1% (88.0–93.4%) (407/447) vs. WG: 84.1% (80.4–87.2%) (376/447). FAR: 3.7% (2.6–5.3%) vs. WG: 0.4% (0.1–1.2%). | **FAIL** |
-
-### Overall Verdict: STOP RULE TRIGGERED — One or more claims did not satisfy the strict locked criteria.
-
----
-
-## 2. False-Alarm Rate on Real Human Speech ($N = 758$)
-
-Evaluated on natural multi-speaker conversation in the AMI Meeting Corpus with $\ge 50\%$ annotated speech overlap.
-
-| Method | False Alarms | False-Alarm Rate (Point) | 95% Wilson Confidence Interval |
-|---|---|---|---|
-| **HushCheck `LIKELY` (Auto-flag)** | 1 | 0.13% | 0.1% (0.0–0.7%) |
-| **HushCheck `LIKELY+SUSPECT` (Review)** | 28 | 3.69% | 3.7% (2.6–5.3%) |
-| **`whisper-guard` (Default)** | 3 | 0.40% | 0.4% (0.1–1.2%) |
-| **Text-only Checks** | 19 | 2.51% | 2.5% (1.6–3.9%) |
-
----
-
-## 3. Recall on Invented Lines (Hallucinations)
-
-### A. Hallucinations Over AMI Meeting Pauses & Silence ($N = 257$)
-Defined by AMI ground-truth annotations ($< 20\%$ speech overlap).
-
-| Method | Caught | Recall (Point) | 95% Wilson Confidence Interval |
-|---|---|---|---|
-| **HushCheck `LIKELY`** | 137 | 53.3% | 53.3% (47.2–59.3%) |
-| **HushCheck `LIKELY+SUSPECT`** | 219 | 85.2% | 85.2% (80.4–89.0%) |
-| **`whisper-guard`** | 186 | 72.4% | 72.4% (66.6–77.5%) |
-| **Text-only Checks** | 168 | 65.4% | 65.4% (59.4–70.9%) |
-
-### B. All Invented Lines Across the Authentic Corpus ($N = 447$)
-Including AMI silence pauses ($N=257$), pure instrumental music ($N=111$), and pure environmental noise ($N=79$).
-
-| Method | Caught | Recall (Point) | 95% Wilson Confidence Interval |
-|---|---|---|---|
-| **HushCheck `LIKELY+SUSPECT` (Review)** | 407 | 91.1% | 91.1% (88.0–93.4%) |
-| **HushCheck `LIKELY` (Auto-flag)** | 238 | 53.2% | 53.2% (48.6–57.8%) |
-| **`whisper-guard` (Default)** | 376 | 84.1% | 84.1% (80.4–87.2%) |
-| **Text-only Checks** | 353 | 79.0% | 79.0% (75.0–82.5%) |
-
-### C. Category Recall Breakdown (Review Mode)
-
-| Category | Total Lines | HushCheck Review Caught | HushCheck Recall | whisper-guard Caught | whisper-guard Recall |
+## 1. Summary of Claims
+| Claim | Metric | Point Estimate | Cluster-Bootstrap 95% CI | Target | Status |
 |---|---|---|---|---|---|
-| **AMI Silence Pauses** | 257 | 219 | 85.2% | 186 | 72.4% |
-| **Pure Instrumental Music** | 111 | 109 | 98.2% | 111 | 100.0% |
-| **Pure Environmental Noise** | 79 | 79 | 100.0% | 79 | 100.0% |
+| **Claim (a): AUTO (LIKELY)** | Real Speech False-Alarm Rate (Strict) | 0.98% (27/2744) | [0.05%, 2.56%] | $\le 1.0\%$, upper $\le 3.0\%$ | PASS |
+| | *Exploratory: Excl. Decoder Collapse* | *0.21% (5/2398)* | *[0.00%, 0.58%]* | *(exploratory, not claim)* | *Info* |
+| | AMI Silence-Pause Recall | 56.52% (130/230) | [33.33%, 83.54%] | $\ge 70.0\%$, lower $\ge 55.0\%$ | FAIL |
+| | Total LIKELY Flags | 213 | — | $\ge 30$ | PASS |
+| **Claim (b): REVIEW** | Recall vs whisper-guard diff | +31.60% | [+14.08%, +44.24%] | $> 0$ (paired bootstrap) | PASS |
+| | Recall vs text-only diff | +25.69% | [+12.31%, +36.24%] | $> 0$ (paired bootstrap) | PASS |
+| | Real Speech False-Alarm Rate (Strict) | 17.09% (469/2744) | [5.25%, 37.69%] | $\le 2.0\%$, upper $\le 4.0\%$ | FAIL |
+| | *Exploratory: Excl. Decoder Collapse* | *5.13% (123/2398)* | *[2.72%, 7.31%]* | *(exploratory, not claim)* | *Info* |
 
----
+## 2. Overall Comparison Across Methods ($N_{real}=2744$, $N_{invented}=288$)
+| Method | Mode | Invented Recall (All 288) | AMI Silence Recall (230) | Real Speech False Alarms (2744) | Real FA Excl. Collapse (2398) |
+|---|---|---|---|---|---|
+| **HushCheck 2** | AUTO (`LIKELY`) | 64.6% | 56.5% | 27/2744 (0.98%) | 5/2398 (0.21%) |
+| **HushCheck 2** | REVIEW (`LIKELY+SUS`) | 86.5% | 83.0% | 469/2744 (17.09%) | 123/2398 (5.13%) |
+| **whisper-guard (v0.3.3)** | Default filter | 54.9% | 43.9% | 293/2744 (10.68%) | 2/2398 (0.08%) |
+| **Text-only Baseline** | Regex/phantom | 60.8% | 50.9% | 347/2744 (12.65%) | — |
 
-## 4. Ambiguous Lines Logged & Excluded
-
-Total ambiguous lines ($20\% \le \text{overlap} < 50\%$): **89 lines**.  
-Exported to [`ambiguous_lines.csv`](./ambiguous_lines.csv) with full start/end timestamps and detector verdicts.
-
----
-
-## 5. Decision Rule Check Details
-
-- **Claim (a) Checks**:
-  - Sample size $N_{real} \ge 300$: **758** (PASS)
-  - False-Alarm Rate point estimate $\le 1.0\%$: **0.13%** (PASS)
-  - False-Alarm Rate 95% Wilson upper bound $\le 2.5\%$: **0.74%** (PASS)
-  - Silence recall $\ge 80\%$ ($N_{silence} \ge 30$): **53.3%** ($N=257$) (FAIL)
-
-- **Claim (b) Checks**:
-  - Sample size $N_{inv} \ge 100$: **447** (PASS)
-  - Recall clearly higher than whisper-guard (non-overlapping 95% intervals): **91.1% (88.0–93.4%) vs. 84.1% (80.4–87.2%)** (PASS)
-  - FAR no higher than whisper-guard's: **3.69% vs. 0.40%** (FAIL)
-  - Recall higher than text-checks-only: **91.1% vs. 79.0%** (PASS)
+## 3. Per-Recording Table
+| Recording | Category | Lines | Real Lines | Real FA (LIKELY) | Real FA (Review) | Real FA (WG) | Invented Lines | Inv Caught (LIKELY) | Inv Caught (Review) | Inv Caught (WG) | Ambiguous |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| `EN2003a.Mix-Headset` | ami | 523 | 485 | 1 | 24 | 0 | 13 | 5 | 12 | 0 | 25 |
+| `EN2004a.Mix-Headset` | ami | 1003 | 963 | 0 | 76 | 0 | 14 | 5 | 10 | 0 | 26 |
+| `EN2005a.Mix-Headset` | ami | 191 | 183 | 0 | 8 | 1 | 2 | 0 | 0 | 0 | 6 |
+| `ES2004a.Mix-Headset` | ami | 485 | 414 | 15 | 242 | 230 | 37 | 13 | 31 | 22 | 34 |
+| `IS1003a.Mix-Headset` | ami | 323 | 194 | 2 | 20 | 1 | 92 | 41 | 68 | 27 | 37 |
+| `TS3004a.Mix-Headset` | ami | 487 | 352 | 9 | 97 | 61 | 72 | 66 | 70 | 52 | 63 |
+| `music_bach_partita3_prelude` | music | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `music_beethoven_symphony5_allegro` | music | 15 | 0 | 0 | 0 | 0 | 15 | 15 | 15 | 15 | 0 |
+| `music_joplin_the_entertainer` | music | 8 | 0 | 0 | 0 | 0 | 8 | 8 | 8 | 8 | 0 |
+| `music_tchaikovsky_waltz_flowers` | music | 16 | 0 | 0 | 0 | 0 | 16 | 16 | 16 | 16 | 0 |
+| `music_vivaldi_winter_allegro` | music | 7 | 0 | 0 | 0 | 0 | 7 | 5 | 7 | 7 | 0 |
+| `music_vivaldi_winter_largo` | music | 5 | 0 | 0 | 0 | 0 | 5 | 5 | 5 | 5 | 0 |
+| `noise_rain_thunder` | noise | 1 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 |
+| `noise_sea_waves` | noise | 1 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 0 |
+| `noise_waterfall_birds` | noise | 2 | 0 | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 0 |
+| `noise_wind_pine_forest` | noise | 3 | 0 | 0 | 0 | 0 | 3 | 3 | 3 | 3 | 0 |
+| `1320-122617-0001` | librispeech | 3 | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0002` | librispeech | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0003` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0004` | librispeech | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0005` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0006` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0010` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0011` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0012` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0013` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0015` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0017` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0019` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0020` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0021` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0022` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0025` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0026` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0033` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0036` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0040` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `1320-122617-0041` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0000` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0001` | librispeech | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0002` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0003` | librispeech | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0004` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0005` | librispeech | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0006` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0007` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0008` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0009` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0010` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0011` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0012` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0013` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0014` | librispeech | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0015` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0016` | librispeech | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0017` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0018` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0019` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-75918-0020` | librispeech | 3 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0000` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0001` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0002` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0003` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0004` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0005` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0006` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0007` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0008` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0009` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0010` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0011` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0012` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0013` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0014` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0015` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0016` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0017` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0018` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0019` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0020` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0021` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0022` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0023` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0024` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0025` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0026` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0027` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-76324-0028` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0000` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0001` | librispeech | 5 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0002` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0003` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0004` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0005` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0006` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0007` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0008` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0009` | librispeech | 4 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0010` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0011` | librispeech | 2 | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0012` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0013` | librispeech | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0014` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0015` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0016` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0017` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0018` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0019` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0020` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0021` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0022` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0023` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0024` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0025` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0026` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `6930-81414-0027` | librispeech | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
