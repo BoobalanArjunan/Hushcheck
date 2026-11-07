@@ -1,0 +1,4570 @@
+{
+  "2035-147960-0000": {
+    "file": "2035-147960-0000.flac",
+    "text": "She was four years older than I to be sure and had seen more of the world. But I was a boy and she was a girl and I resented her protecting manner.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.2,
+        "text": " She was four years older than I to be sure and had seen more of the world.",
+        "tokens": [
+          50364,
+          1240,
+          390,
+          1451,
+          924,
+          4906,
+          813,
+          286,
+          281,
+          312,
+          988,
+          293,
+          632,
+          1612,
+          544,
+          295,
+          264,
+          1002,
+          13,
+          50574
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.25005103320610234,
+        "compression_ratio": 1.3008849557522124,
+        "no_speech_prob": 0.019015097990632057
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.2,
+        "end": 8.6,
+        "text": " But I was a boy and she was a girl and I resented her protecting manner.",
+        "tokens": [
+          50574,
+          583,
+          286,
+          390,
+          257,
+          3237,
+          293,
+          750,
+          390,
+          257,
+          2013,
+          293,
+          286,
+          725,
+          6003,
+          720,
+          12316,
+          9060,
+          13,
+          50794
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.25005103320610234,
+        "compression_ratio": 1.3008849557522124,
+        "no_speech_prob": 0.019015097990632057
+      }
+    ]
+  },
+  "2035-147960-0008": {
+    "file": "2035-147960-0008.flac",
+    "text": "A faint, fetted smell came from him, and a thread of green liquid oozed from his crushed head.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 6.0,
+        "text": " A faint, fetted smell came from him, and a thread of green liquid oozed from his crushed head.",
+        "tokens": [
+          50364,
+          316,
+          21104,
+          11,
+          283,
+          46508,
+          4316,
+          1361,
+          490,
+          796,
+          11,
+          293,
+          257,
+          7207,
+          295,
+          3092,
+          6553,
+          32685,
+          11312,
+          490,
+          702,
+          19889,
+          1378,
+          13,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2750520155980037,
+        "compression_ratio": 1.1325301204819278,
+        "no_speech_prob": 0.009076028130948544
+      }
+    ]
+  },
+  "2035-147960-0011": {
+    "file": "2035-147960-0011.flac",
+    "text": "We decided that Antenna should ride Dude Home, and I would walk.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.0,
+        "text": " We decided that Antenna should ride Dude Home, and I would walk.",
+        "tokens": [
+          50364,
+          492,
+          3047,
+          300,
+          5130,
+          268,
+          629,
+          820,
+          5077,
+          12042,
+          8719,
+          11,
+          293,
+          286,
+          576,
+          1792,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3857229885302092,
+        "compression_ratio": 0.9696969696969697,
+        "no_speech_prob": 0.017641354352235794
+      }
+    ]
+  },
+  "2035-147960-0013": {
+    "file": "2035-147960-0013.flac",
+    "text": "Otto Fuchs was the first one we met.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.32,
+        "text": " Otto Fuchs was the first one we met.",
+        "tokens": [
+          50364,
+          41716,
+          479,
+          37503,
+          390,
+          264,
+          700,
+          472,
+          321,
+          1131,
+          13,
+          50480
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.39670614095834583,
+        "compression_ratio": 0.8181818181818182,
+        "no_speech_prob": 0.04316343739628792
+      }
+    ]
+  },
+  "2035-147960-0014": {
+    "file": "2035-147960-0014.flac",
+    "text": "You could stand right up and talk to you. He could. Did he fight hard?",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.84,
+        "text": " You could stand right up and talk to you. He could. Did he fight hard?",
+        "tokens": [
+          50364,
+          509,
+          727,
+          1463,
+          558,
+          493,
+          293,
+          751,
+          281,
+          291,
+          13,
+          634,
+          727,
+          13,
+          2589,
+          415,
+          2092,
+          1152,
+          30,
+          50556
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17134795870099748,
+        "compression_ratio": 1.0294117647058822,
+        "no_speech_prob": 0.021522926166653633
+      }
+    ]
+  },
+  "2277-149874-0000": {
+    "file": "2277-149874-0000.flac",
+    "text": "Many's flat, as the one floor resident apartments were then being called, was in a part of West Van Buren Street inhabited by families of laborers and clerks, men who had come and were still coming, with the rush of population pouring in at the rate of 50,000 a year.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 15.0,
+        "text": " Many's flat, as the one floor resident apartments were then being called, was in a part of West Van Buren Street inhabited by families of laborers and clerks, men who had come and were still coming, with the rush of population pouring in at the rate of 50,000 a year.",
+        "tokens": [
+          50364,
+          5126,
+          311,
+          4962,
+          11,
+          382,
+          264,
+          472,
+          4123,
+          10832,
+          29056,
+          645,
+          550,
+          885,
+          1219,
+          11,
+          390,
+          294,
+          257,
+          644,
+          295,
+          4055,
+          8979,
+          363,
+          9873,
+          7638,
+          47538,
+          538,
+          4466,
+          295,
+          5938,
+          433,
+          293,
+          25902,
+          1694,
+          11,
+          1706,
+          567,
+          632,
+          808,
+          293,
+          645,
+          920,
+          1348,
+          11,
+          365,
+          264,
+          9300,
+          295,
+          4415,
+          20450,
+          294,
+          412,
+          264,
+          3314,
+          295,
+          2625,
+          11,
+          1360,
+          257,
+          1064,
+          13,
+          51114
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1685052514076233,
+        "compression_ratio": 1.4432432432432432,
+        "no_speech_prob": 0.017372233793139458
+      }
+    ]
+  },
+  "2277-149874-0001": {
+    "file": "2277-149874-0001.flac",
+    "text": "To carry the sound of the little bells upon the horse cars as they tinkled in and out of hearing was as pleasing as it was novel.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 6.5200000000000005,
+        "text": " To carry the sound of the little bells upon the horse cars as they tinkled in and out of hearing was as pleasing as it was novel.",
+        "tokens": [
+          50364,
+          1407,
+          3985,
+          264,
+          1626,
+          295,
+          264,
+          707,
+          25474,
+          3564,
+          264,
+          6832,
+          5163,
+          382,
+          436,
+          256,
+          475,
+          1493,
+          294,
+          293,
+          484,
+          295,
+          4763,
+          390,
+          382,
+          32798,
+          382,
+          309,
+          390,
+          7613,
+          13,
+          50690
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20307601581920276,
+        "compression_ratio": 1.3298969072164948,
+        "no_speech_prob": 0.003994323313236237
+      }
+    ]
+  },
+  "2277-149874-0002": {
+    "file": "2277-149874-0002.flac",
+    "text": "To him, the presence or absence of his wife's sister was a matter of indifference.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.6000000000000005,
+        "text": " To him, the presence or absence of his wife's sister was a matter of indifference.",
+        "tokens": [
+          50364,
+          1407,
+          796,
+          11,
+          264,
+          6814,
+          420,
+          17145,
+          295,
+          702,
+          3836,
+          311,
+          4892,
+          390,
+          257,
+          1871,
+          295,
+          1016,
+          351,
+          5158,
+          13,
+          50594
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.18545300027598505,
+        "compression_ratio": 1.0933333333333333,
+        "no_speech_prob": 0.002465010853484273
+      }
+    ]
+  },
+  "2277-149874-0003": {
+    "file": "2277-149874-0003.flac",
+    "text": "He was of a clean saving disposition and had already paid a number of monthly installments on two lots far out on the west side.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.5200000000000005,
+        "text": " He was of a clean saving disposition and had already paid a number of monthly",
+        "tokens": [
+          50364,
+          634,
+          390,
+          295,
+          257,
+          2541,
+          6816,
+          40293,
+          293,
+          632,
+          1217,
+          4835,
+          257,
+          1230,
+          295,
+          12878,
+          50590
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24725140631198883,
+        "compression_ratio": 1.2427184466019416,
+        "no_speech_prob": 0.01076960563659668
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.5200000000000005,
+        "end": 9.24,
+        "text": " installments on two lots far out on the west side.",
+        "tokens": [
+          50590,
+          3625,
+          1117,
+          322,
+          732,
+          3195,
+          1400,
+          484,
+          322,
+          264,
+          7009,
+          1252,
+          13,
+          50826
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24725140631198883,
+        "compression_ratio": 1.2427184466019416,
+        "no_speech_prob": 0.01076960563659668
+      }
+    ]
+  },
+  "2277-149874-0004": {
+    "file": "2277-149874-0004.flac",
+    "text": "His ambition was someday to build a house on them.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " His ambition was someday to build a house on them.",
+        "tokens": [
+          50364,
+          2812,
+          22814,
+          390,
+          19412,
+          281,
+          1322,
+          257,
+          1782,
+          322,
+          552,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24838554859161377,
+        "compression_ratio": 0.8771929824561403,
+        "no_speech_prob": 0.001365572214126587
+      }
+    ]
+  },
+  "2277-149874-0005": {
+    "file": "2277-149874-0005.flac",
+    "text": "She had some slight gift of observation, and that sense so rich in every woman, intuition.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.76,
+        "text": " She had some slight gift of observation, and that sense so rich in every woman, intuition.",
+        "tokens": [
+          50364,
+          1240,
+          632,
+          512,
+          4036,
+          5306,
+          295,
+          14816,
+          11,
+          293,
+          300,
+          2020,
+          370,
+          4593,
+          294,
+          633,
+          3059,
+          11,
+          24002,
+          13,
+          50652
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3149551478299228,
+        "compression_ratio": 1.1111111111111112,
+        "no_speech_prob": 0.0037029359955340624
+      }
+    ]
+  },
+  "2277-149874-0006": {
+    "file": "2277-149874-0006.flac",
+    "text": "The walls of the rooms were discordantly papered.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " The walls of the rooms were discordantly papered.",
+        "tokens": [
+          50364,
+          440,
+          7920,
+          295,
+          264,
+          9396,
+          645,
+          32989,
+          3627,
+          3035,
+          292,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3166419437953404,
+        "compression_ratio": 0.9074074074074074,
+        "no_speech_prob": 0.0058100041933357716
+      }
+    ]
+  },
+  "2277-149874-0007": {
+    "file": "2277-149874-0007.flac",
+    "text": "The floors were covered with matting and the hall laid with a thin rag carpet.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.32,
+        "text": " The floors were covered with matting and the hall laid with a thin rag carpet.",
+        "tokens": [
+          50364,
+          440,
+          21008,
+          645,
+          5343,
+          365,
+          3803,
+          783,
+          293,
+          264,
+          6500,
+          9897,
+          365,
+          257,
+          5862,
+          17539,
+          18119,
+          13,
+          50580
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24221210479736327,
+        "compression_ratio": 1.0684931506849316,
+        "no_speech_prob": 0.0025859111919999123
+      }
+    ]
+  },
+  "2277-149874-0008": {
+    "file": "2277-149874-0008.flac",
+    "text": "Then she walked and sang to it until Hansen, disturbed in his reading, came and took it.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " Then she walked and sang to it until Hansen, disturbed in his reading, came and took it.",
+        "tokens": [
+          50364,
+          1396,
+          750,
+          7628,
+          293,
+          9980,
+          281,
+          309,
+          1826,
+          17926,
+          268,
+          11,
+          30558,
+          294,
+          702,
+          3760,
+          11,
+          1361,
+          293,
+          1890,
+          309,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1939746936162313,
+        "compression_ratio": 1.0864197530864197,
+        "no_speech_prob": 0.0027971600648015738
+      }
+    ]
+  },
+  "2277-149874-0009": {
+    "file": "2277-149874-0009.flac",
+    "text": "one could see that he was very much wrapped up in his offspring.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.2800000000000002,
+        "text": " one could see that he was very much wrapped up in his offspring.",
+        "tokens": [
+          50364,
+          472,
+          727,
+          536,
+          300,
+          415,
+          390,
+          588,
+          709,
+          14226,
+          493,
+          294,
+          702,
+          36857,
+          13,
+          50528
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2363875613493078,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.003266776679083705
+      }
+    ]
+  },
+  "2277-149874-0010": {
+    "file": "2277-149874-0010.flac",
+    "text": "Now, now, he said walking, there, there. And there was a certain Swedish accent noticeable in his voice.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.9,
+        "text": " Now, now, he said walking, there, there.",
+        "tokens": [
+          50364,
+          823,
+          11,
+          586,
+          11,
+          415,
+          848,
+          4494,
+          11,
+          456,
+          11,
+          456,
+          13,
+          50559
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2972910650845232,
+        "compression_ratio": 1.1555555555555554,
+        "no_speech_prob": 0.005361844785511494
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.9,
+        "end": 6.9,
+        "text": " And there was a certain Swedish accent noticeable in his voice.",
+        "tokens": [
+          50559,
+          400,
+          456,
+          390,
+          257,
+          1629,
+          23523,
+          11982,
+          26041,
+          294,
+          702,
+          3177,
+          13,
+          50709
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2972910650845232,
+        "compression_ratio": 1.1555555555555554,
+        "no_speech_prob": 0.005361844785511494
+      }
+    ]
+  },
+  "2277-149874-0011": {
+    "file": "2277-149874-0011.flac",
+    "text": "he seemed to be thinking of something else.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "text": " he seemed to be thinking of something else.",
+        "tokens": [
+          50364,
+          415,
+          6576,
+          281,
+          312,
+          1953,
+          295,
+          746,
+          1646,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30563714106877643,
+        "compression_ratio": 0.8958333333333334,
+        "no_speech_prob": 0.0007910922868177295
+      }
+    ]
+  },
+  "2277-149874-0012": {
+    "file": "2277-149874-0012.flac",
+    "text": "Many began to explain, but her husband took this part of the conversation to himself.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.64,
+        "text": " Many began to explain, but her husband took this part of the conversation to himself.",
+        "tokens": [
+          50364,
+          5126,
+          4283,
+          281,
+          2903,
+          11,
+          457,
+          720,
+          5213,
+          1890,
+          341,
+          644,
+          295,
+          264,
+          3761,
+          281,
+          3647,
+          13,
+          50596
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1999351739883423,
+        "compression_ratio": 1.0493827160493827,
+        "no_speech_prob": 0.013365655206143856
+      }
+    ]
+  },
+  "2277-149874-0013": {
+    "file": "2277-149874-0013.flac",
+    "text": "You could get home easy too. It isn't very far.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " You could get home easy too. It isn't very far.",
+        "tokens": [
+          50364,
+          509,
+          727,
+          483,
+          1280,
+          1858,
+          886,
+          13,
+          467,
+          1943,
+          380,
+          588,
+          1400,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2362278401851654,
+        "compression_ratio": 0.8545454545454545,
+        "no_speech_prob": 0.006991113536059856
+      }
+    ]
+  },
+  "2277-149874-0014": {
+    "file": "2277-149874-0014.flac",
+    "text": "She asked many for ink and paper, which were upon the mantel in the dining room, and when the latter had gone to bed at ten, got out, drew his card, and wrote him.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.72,
+        "text": " She asked many for ink and paper, which were upon the mantel in the dining room, and when",
+        "tokens": [
+          50364,
+          1240,
+          2351,
+          867,
+          337,
+          11276,
+          293,
+          3035,
+          11,
+          597,
+          645,
+          3564,
+          264,
+          10845,
+          338,
+          294,
+          264,
+          17874,
+          1808,
+          11,
+          293,
+          562,
+          50600
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22378374182659647,
+        "compression_ratio": 1.3697478991596639,
+        "no_speech_prob": 0.007094374857842922
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.72,
+        "end": 8.28,
+        "text": " the latter had gone to bed at ten, got out, drew his card, and wrote him.",
+        "tokens": [
+          50600,
+          264,
+          18481,
+          632,
+          2780,
+          281,
+          2901,
+          412,
+          2064,
+          11,
+          658,
+          484,
+          11,
+          12804,
+          702,
+          2920,
+          11,
+          293,
+          4114,
+          796,
+          13,
+          50778
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22378374182659647,
+        "compression_ratio": 1.3697478991596639,
+        "no_speech_prob": 0.007094374857842922
+      }
+    ]
+  },
+  "2277-149874-0015": {
+    "file": "2277-149874-0015.flac",
+    "text": "She wanted to make some reference to their relations upon the train, but was too timid.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.7,
+        "text": " She wanted to make some reference to their relations upon the train, but was too timid.",
+        "tokens": [
+          50364,
+          1240,
+          1415,
+          281,
+          652,
+          512,
+          6408,
+          281,
+          641,
+          2299,
+          3564,
+          264,
+          3847,
+          11,
+          457,
+          390,
+          886,
+          524,
+          327,
+          13,
+          50599
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1905994632027366,
+        "compression_ratio": 1.1012658227848102,
+        "no_speech_prob": 0.004321654327213764
+      }
+    ]
+  },
+  "2277-149874-0016": {
+    "file": "2277-149874-0016.flac",
+    "text": "Anything was good enough so long as it paid, say, $5 a week to begin with.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " Anything was good enough so long as it paid, say, $5 a week to begin with.",
+        "tokens": [
+          50364,
+          11998,
+          390,
+          665,
+          1547,
+          370,
+          938,
+          382,
+          309,
+          4835,
+          11,
+          584,
+          11,
+          1848,
+          20,
+          257,
+          1243,
+          281,
+          1841,
+          365,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19492634483005689,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.005544027779251337
+      }
+    ]
+  },
+  "2277-149874-0017": {
+    "file": "2277-149874-0017.flac",
+    "text": "A shop girl was the destiny prefigured for the newcomer.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.2,
+        "text": " A shop girl was the destiny prefigured for the newcomer.",
+        "tokens": [
+          50364,
+          316,
+          3945,
+          2013,
+          390,
+          264,
+          17893,
+          18417,
+          328,
+          3831,
+          337,
+          264,
+          40014,
+          260,
+          13,
+          50524
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24082458720487707,
+        "compression_ratio": 0.9180327868852459,
+        "no_speech_prob": 0.0052841901779174805
+      }
+    ]
+  },
+  "2277-149874-0018": {
+    "file": "2277-149874-0018.flac",
+    "text": "It was under such auspicious circumstances that she started out this morning to look for work.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.8,
+        "text": " It was under such auspicious circumstances that she started out this morning to look for work.",
+        "tokens": [
+          50364,
+          467,
+          390,
+          833,
+          1270,
+          3437,
+          47067,
+          9121,
+          300,
+          750,
+          1409,
+          484,
+          341,
+          2446,
+          281,
+          574,
+          337,
+          589,
+          13,
+          50604
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16762478010995047,
+        "compression_ratio": 1.1604938271604939,
+        "no_speech_prob": 0.0021808354649692774
+      }
+    ]
+  },
+  "2277-149874-0019": {
+    "file": "2277-149874-0019.flac",
+    "text": "Narrow boardwalks extended out, passing here a house and there a store at far intervals, eventually ending on the open prairie.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.84,
+        "text": " Narrow boardwalks extended out, passing here a house and there a store at far intervals,",
+        "tokens": [
+          50364,
+          13512,
+          1892,
+          3150,
+          12490,
+          82,
+          10913,
+          484,
+          11,
+          8437,
+          510,
+          257,
+          1782,
+          293,
+          456,
+          257,
+          3531,
+          412,
+          1400,
+          26651,
+          11,
+          50656
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2044741746151086,
+        "compression_ratio": 1.2450980392156863,
+        "no_speech_prob": 0.002975566778331995
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.84,
+        "end": 7.96,
+        "text": " eventually ending on the open prairie.",
+        "tokens": [
+          50656,
+          4728,
+          8121,
+          322,
+          264,
+          1269,
+          3206,
+          32924,
+          13,
+          50762
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2044741746151086,
+        "compression_ratio": 1.2450980392156863,
+        "no_speech_prob": 0.002975566778331995
+      }
+    ]
+  },
+  "2277-149874-0020": {
+    "file": "2277-149874-0020.flac",
+    "text": "It gave an imposing appearance to most of the wholesale houses, whose offices were up on the ground floor and in plain view of the street.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.72,
+        "text": " It gave an imposing appearance to most of the wholesale houses, whose offices were up on the",
+        "tokens": [
+          50364,
+          467,
+          2729,
+          364,
+          40288,
+          8967,
+          281,
+          881,
+          295,
+          264,
+          43982,
+          8078,
+          11,
+          6104,
+          14434,
+          645,
+          493,
+          322,
+          264,
+          50600
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20401092009110885,
+        "compression_ratio": 1.2777777777777777,
+        "no_speech_prob": 0.004744591657072306
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.72,
+        "end": 7.36,
+        "text": " ground floor and in plain view of the street.",
+        "tokens": [
+          50600,
+          2727,
+          4123,
+          293,
+          294,
+          11121,
+          1910,
+          295,
+          264,
+          4838,
+          13,
+          50732
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20401092009110885,
+        "compression_ratio": 1.2777777777777777,
+        "no_speech_prob": 0.004744591657072306
+      }
+    ]
+  },
+  "2277-149874-0021": {
+    "file": "2277-149874-0021.flac",
+    "text": "These vast buildings, what were they?",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " These vast buildings, what were they?",
+        "tokens": [
+          50364,
+          1981,
+          8369,
+          7446,
+          11,
+          437,
+          645,
+          436,
+          30,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4015494693409313,
+        "compression_ratio": 0.8222222222222222,
+        "no_speech_prob": 0.03951621428132057
+      }
+    ]
+  },
+  "2277-149896-0000": {
+    "file": "2277-149896-0000.flac",
+    "text": "He was in a fevered state of mind, owing to the blight his wife's action threatened to cast upon his entire future.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.32,
+        "text": " He was in a fevered state of mind, owing to the blight his wife's action threatened to",
+        "tokens": [
+          50364,
+          634,
+          390,
+          294,
+          257,
+          18277,
+          292,
+          1785,
+          295,
+          1575,
+          11,
+          277,
+          7904,
+          281,
+          264,
+          888,
+          397,
+          702,
+          3836,
+          311,
+          3069,
+          18268,
+          281,
+          50580
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11203468929637563,
+        "compression_ratio": 1.2105263157894737,
+        "no_speech_prob": 0.015317237935960293
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.32,
+        "end": 6.16,
+        "text": " cast upon his entire future.",
+        "tokens": [
+          50580,
+          4193,
+          3564,
+          702,
+          2302,
+          2027,
+          13,
+          50672
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11203468929637563,
+        "compression_ratio": 1.2105263157894737,
+        "no_speech_prob": 0.015317237935960293
+      }
+    ]
+  },
+  "2277-149896-0001": {
+    "file": "2277-149896-0001.flac",
+    "text": "He would have to pay her the money which she would now regularly demand, or there would be trouble. It did not matter what he did.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.28,
+        "text": " He would have to pay her the money which she would now regularly demand, or there would",
+        "tokens": [
+          50364,
+          634,
+          576,
+          362,
+          281,
+          1689,
+          720,
+          264,
+          1460,
+          597,
+          750,
+          576,
+          586,
+          11672,
+          4733,
+          11,
+          420,
+          456,
+          576,
+          50578
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19122722413804796,
+        "compression_ratio": 1.3,
+        "no_speech_prob": 0.03147188574075699
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.28,
+        "end": 5.4,
+        "text": " be trouble.",
+        "tokens": [
+          50578,
+          312,
+          5253,
+          13,
+          50634
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19122722413804796,
+        "compression_ratio": 1.3,
+        "no_speech_prob": 0.03147188574075699
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 5.4,
+        "end": 6.76,
+        "text": " It did not matter what he did.",
+        "tokens": [
+          50634,
+          467,
+          630,
+          406,
+          1871,
+          437,
+          415,
+          630,
+          13,
+          50702
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19122722413804796,
+        "compression_ratio": 1.3,
+        "no_speech_prob": 0.03147188574075699
+      }
+    ]
+  },
+  "2277-149896-0002": {
+    "file": "2277-149896-0002.flac",
+    "text": "Hurstwood walked the floor mentally arranging the chief points of his situation.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " Hurstwood walked the floor mentally arranging the chief points of his situation.",
+        "tokens": [
+          50364,
+          8598,
+          372,
+          6092,
+          7628,
+          264,
+          4123,
+          17072,
+          5539,
+          9741,
+          264,
+          9588,
+          2793,
+          295,
+          702,
+          2590,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3171232876024748,
+        "compression_ratio": 1.0526315789473684,
+        "no_speech_prob": 0.017098525539040565
+      }
+    ]
+  },
+  "2277-149896-0003": {
+    "file": "2277-149896-0003.flac",
+    "text": "He also thought of his managerial position.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.7600000000000002,
+        "text": " He also thought of his managerial position.",
+        "tokens": [
+          50364,
+          634,
+          611,
+          1194,
+          295,
+          702,
+          6598,
+          831,
+          2535,
+          13,
+          50502
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3023672898610433,
+        "compression_ratio": 0.8431372549019608,
+        "no_speech_prob": 0.013402502983808517
+      }
+    ]
+  },
+  "2277-149896-0004": {
+    "file": "2277-149896-0004.flac",
+    "text": "How would the papers talk about it?",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "text": " How would the papers talk about it?",
+        "tokens": [
+          50364,
+          1012,
+          576,
+          264,
+          10577,
+          751,
+          466,
+          309,
+          30,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2554609775543213,
+        "compression_ratio": 0.813953488372093,
+        "no_speech_prob": 0.011317974887788296
+      }
+    ]
+  },
+  "2277-149896-0005": {
+    "file": "2277-149896-0005.flac",
+    "text": "Many little wrinkles gathered between his eyes as he contemplated this and his brow moistened.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " Many little wrinkles gathered between his eyes as he contemplated this and his brow moistened.",
+        "tokens": [
+          50364,
+          5126,
+          707,
+          34822,
+          13032,
+          1296,
+          702,
+          2575,
+          382,
+          415,
+          19935,
+          770,
+          341,
+          293,
+          702,
+          19299,
+          705,
+          4821,
+          292,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2126762866973877,
+        "compression_ratio": 1.1604938271604939,
+        "no_speech_prob": 0.006362901534885168
+      }
+    ]
+  },
+  "2277-149896-0006": {
+    "file": "2277-149896-0006.flac",
+    "text": "He could arrange that satisfactorily, for Kerry would be glad to wait if necessary.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " He could arrange that satisfactorily, for Kerry would be glad to wait if necessary.",
+        "tokens": [
+          50364,
+          634,
+          727,
+          9424,
+          300,
+          5519,
+          15104,
+          953,
+          11,
+          337,
+          28528,
+          576,
+          312,
+          5404,
+          281,
+          1699,
+          498,
+          4818,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3390747706095378,
+        "compression_ratio": 1.064102564102564,
+        "no_speech_prob": 0.003118579974398017
+      }
+    ]
+  },
+  "2277-149896-0007": {
+    "file": "2277-149896-0007.flac",
+    "text": "He would see how things turned out tomorrow and then he would talk to her. They were going to meet as usual",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.04,
+        "text": " He would see how things turned out tomorrow and then he would talk to her. They were going to meet as usual",
+        "tokens": [
+          50364,
+          634,
+          576,
+          536,
+          577,
+          721,
+          3574,
+          484,
+          4153,
+          293,
+          550,
+          415,
+          576,
+          751,
+          281,
+          720,
+          13,
+          814,
+          645,
+          516,
+          281,
+          1677,
+          382,
+          7713,
+          50616
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1622923154097337,
+        "compression_ratio": 1.202247191011236,
+        "no_speech_prob": 0.026665372774004936
+      }
+    ]
+  },
+  "2277-149896-0008": {
+    "file": "2277-149896-0008.flac",
+    "text": "For some reason, he felt as if something might come that way and was relieved when all the envelopes had been scanned and nothing suspicious noticed.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.84,
+        "text": " For some reason, he felt as if something might come that way and was relieved when all the",
+        "tokens": [
+          50364,
+          1171,
+          512,
+          1778,
+          11,
+          415,
+          2762,
+          382,
+          498,
+          746,
+          1062,
+          808,
+          300,
+          636,
+          293,
+          390,
+          27972,
+          562,
+          439,
+          264,
+          50556
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1925054718466366,
+        "compression_ratio": 1.3185840707964602,
+        "no_speech_prob": 0.0038162388373166323
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.84,
+        "end": 6.640000000000001,
+        "text": " envelopes had been scanned and nothing suspicious noticed.",
+        "tokens": [
+          50556,
+          33860,
+          279,
+          632,
+          668,
+          45089,
+          293,
+          1825,
+          17931,
+          5694,
+          13,
+          50696
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1925054718466366,
+        "compression_ratio": 1.3185840707964602,
+        "no_speech_prob": 0.0038162388373166323
+      }
+    ]
+  },
+  "2277-149896-0009": {
+    "file": "2277-149896-0009.flac",
+    "text": "While the danger had not lessened, it had not as yet materialized, and with him, no news was good news.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.72,
+        "text": " While the danger had not lessened, it had not as yet materialized, and with him, no news",
+        "tokens": [
+          50364,
+          3987,
+          264,
+          4330,
+          632,
+          406,
+          1570,
+          5320,
+          11,
+          309,
+          632,
+          406,
+          382,
+          1939,
+          2527,
+          1602,
+          11,
+          293,
+          365,
+          796,
+          11,
+          572,
+          2583,
+          50600
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1731691514292071,
+        "compression_ratio": 1.2261904761904763,
+        "no_speech_prob": 0.013779439963400364
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.72,
+        "end": 5.6000000000000005,
+        "text": " was good news.",
+        "tokens": [
+          50600,
+          390,
+          665,
+          2583,
+          13,
+          50644
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1731691514292071,
+        "compression_ratio": 1.2261904761904763,
+        "no_speech_prob": 0.013779439963400364
+      }
+    ]
+  },
+  "2277-149896-0010": {
+    "file": "2277-149896-0010.flac",
+    "text": "So little did he consider Druah that it never once occurred to him to worry about his finding out.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " So little did he consider Druah that it never once occurred to him to worry about his finding out.",
+        "tokens": [
+          50364,
+          407,
+          707,
+          630,
+          415,
+          1949,
+          36744,
+          545,
+          300,
+          309,
+          1128,
+          1564,
+          11068,
+          281,
+          796,
+          281,
+          3292,
+          466,
+          702,
+          5006,
+          484,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.18454068899154663,
+        "compression_ratio": 1.1395348837209303,
+        "no_speech_prob": 0.0067733284085989
+      }
+    ]
+  },
+  "2277-149896-0011": {
+    "file": "2277-149896-0011.flac",
+    "text": "He grew restless as he ruminated and then decided that perhaps it was nothing.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.4,
+        "text": " He grew restless as he ruminated and then decided that perhaps it was nothing.",
+        "tokens": [
+          50364,
+          634,
+          6109,
+          45451,
+          382,
+          415,
+          367,
+          7112,
+          770,
+          293,
+          550,
+          3047,
+          300,
+          4317,
+          309,
+          390,
+          1825,
+          13,
+          50584
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2573214530944824,
+        "compression_ratio": 1.0833333333333333,
+        "no_speech_prob": 0.0035299588926136494
+      }
+    ]
+  },
+  "2277-149896-0012": {
+    "file": "2277-149896-0012.flac",
+    "text": "She had not been able to get away this morning.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.32,
+        "text": " She had not been able to get away this morning.",
+        "tokens": [
+          50364,
+          1240,
+          632,
+          406,
+          668,
+          1075,
+          281,
+          483,
+          1314,
+          341,
+          2446,
+          13,
+          50480
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2986071450369699,
+        "compression_ratio": 0.8545454545454545,
+        "no_speech_prob": 0.0019237915985286236
+      }
+    ]
+  },
+  "2277-149896-0013": {
+    "file": "2277-149896-0013.flac",
+    "text": "He would get one today. It would probably be on his desk when he got back. He would look for it at once.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 6.0,
+        "text": " He would get one today. It would probably be on his desk when he got back. He would look for it at once.",
+        "tokens": [
+          50364,
+          634,
+          576,
+          483,
+          472,
+          965,
+          13,
+          467,
+          576,
+          1391,
+          312,
+          322,
+          702,
+          10026,
+          562,
+          415,
+          658,
+          646,
+          13,
+          634,
+          576,
+          574,
+          337,
+          309,
+          412,
+          1564,
+          13,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16711221892258216,
+        "compression_ratio": 1.2093023255813953,
+        "no_speech_prob": 0.006564845331013203
+      }
+    ]
+  },
+  "2277-149896-0014": {
+    "file": "2277-149896-0014.flac",
+    "text": "After a time, he gave up waiting and rarily headed for the Madison car.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.0,
+        "text": " After a time, he gave up waiting and rarily headed for the Madison car.",
+        "tokens": [
+          50364,
+          2381,
+          257,
+          565,
+          11,
+          415,
+          2729,
+          493,
+          3806,
+          293,
+          367,
+          289,
+          953,
+          12798,
+          337,
+          264,
+          22874,
+          1032,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2514542170933315,
+        "compression_ratio": 0.9726027397260274,
+        "no_speech_prob": 0.019320398569107056
+      }
+    ]
+  },
+  "2277-149896-0015": {
+    "file": "2277-149896-0015.flac",
+    "text": "He went in and examined his letters, but there was nothing from Kerry.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.4,
+        "text": " He went in and examined his letters, but there was nothing from Kerry.",
+        "tokens": [
+          50364,
+          634,
+          1437,
+          294,
+          293,
+          30972,
+          702,
+          7825,
+          11,
+          457,
+          456,
+          390,
+          1825,
+          490,
+          28528,
+          13,
+          50534
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.26657430330912274,
+        "compression_ratio": 0.9859154929577465,
+        "no_speech_prob": 0.011468886397778988
+      }
+    ]
+  },
+  "2277-149896-0016": {
+    "file": "2277-149896-0016.flac",
+    "text": "Fortunately, there was nothing from his wife either.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.56,
+        "text": " Fortunately, there was nothing from his wife either.",
+        "tokens": [
+          50364,
+          20652,
+          11,
+          456,
+          390,
+          1825,
+          490,
+          702,
+          3836,
+          2139,
+          13,
+          50492
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.32062413142277646,
+        "compression_ratio": 0.896551724137931,
+        "no_speech_prob": 0.00981168169528246
+      }
+    ]
+  },
+  "2277-149896-0017": {
+    "file": "2277-149896-0017.flac",
+    "text": "At 1.30 he went to Rectors for lunch and when he returned a messenger was waiting for him.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " At 1.30 he went to Rectors for lunch and when he returned a messenger was waiting for him.",
+        "tokens": [
+          50364,
+          1711,
+          502,
+          13,
+          3446,
+          415,
+          1437,
+          281,
+          497,
+          557,
+          830,
+          337,
+          6349,
+          293,
+          562,
+          415,
+          8752,
+          257,
+          26599,
+          390,
+          3806,
+          337,
+          796,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21425989957956168,
+        "compression_ratio": 1.0588235294117647,
+        "no_speech_prob": 0.015367664396762848
+      }
+    ]
+  },
+  "2277-149896-0018": {
+    "file": "2277-149896-0018.flac",
+    "text": "His first impulse was to write but four words in reply. Go to the devil.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.08,
+        "text": " His first impulse was to write but four words in reply.",
+        "tokens": [
+          50364,
+          2812,
+          700,
+          26857,
+          390,
+          281,
+          2464,
+          457,
+          1451,
+          2283,
+          294,
+          16972,
+          13,
+          50518
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3909597396850586,
+        "compression_ratio": 1.0140845070422535,
+        "no_speech_prob": 0.006184946745634079
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.08,
+        "end": 4.08,
+        "text": " Go to the devil.",
+        "tokens": [
+          50518,
+          1037,
+          281,
+          264,
+          13297,
+          13,
+          50568
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3909597396850586,
+        "compression_ratio": 1.0140845070422535,
+        "no_speech_prob": 0.006184946745634079
+      }
+    ]
+  },
+  "2277-149896-0019": {
+    "file": "2277-149896-0019.flac",
+    "text": "but he compromised by telling the boy that there would be no reply.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.5,
+        "text": " but he compromised by telling the boy that there would be no reply.",
+        "tokens": [
+          50364,
+          457,
+          415,
+          32463,
+          538,
+          3585,
+          264,
+          3237,
+          300,
+          456,
+          576,
+          312,
+          572,
+          16972,
+          13,
+          50539
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2548381020041073,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.00998116284608841
+      }
+    ]
+  },
+  "2277-149896-0020": {
+    "file": "2277-149896-0020.flac",
+    "text": "Then he sat down in his chair and gazed without seeing, contemplating the result of his work.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " Then he sat down in his chair and gazed without seeing, contemplating the result of his work.",
+        "tokens": [
+          50364,
+          1396,
+          415,
+          3227,
+          760,
+          294,
+          702,
+          6090,
+          293,
+          290,
+          17262,
+          1553,
+          2577,
+          11,
+          19935,
+          990,
+          264,
+          1874,
+          295,
+          702,
+          589,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.18397676944732666,
+        "compression_ratio": 1.0941176470588236,
+        "no_speech_prob": 0.003165155416354537
+      }
+    ]
+  },
+  "2277-149896-0021": {
+    "file": "2277-149896-0021.flac",
+    "text": "What would she do about that? The confounded wretch?",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.8000000000000003,
+        "text": " What would she do about that? The confounded wretch?",
+        "tokens": [
+          50364,
+          708,
+          576,
+          750,
+          360,
+          466,
+          300,
+          30,
+          440,
+          1497,
+          37706,
+          261,
+          5427,
+          30,
+          50504
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.30330589413642883,
+        "compression_ratio": 0.9122807017543859,
+        "no_speech_prob": 0.008831086568534374
+      }
+    ]
+  },
+  "2277-149896-0022": {
+    "file": "2277-149896-0022.flac",
+    "text": "Later, however, his old discretion asserted itself.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.16,
+        "text": " Later, however, his old discretion asserted itself.",
+        "tokens": [
+          50364,
+          11965,
+          11,
+          4461,
+          11,
+          702,
+          1331,
+          30140,
+          19810,
+          292,
+          2564,
+          13,
+          50522
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2154663290296282,
+        "compression_ratio": 0.9272727272727272,
+        "no_speech_prob": 0.010799556970596313
+      }
+    ]
+  },
+  "2277-149896-0023": {
+    "file": "2277-149896-0023.flac",
+    "text": "Something had to be done. A climax was near and she would not sit idle.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.6,
+        "text": " Something had to be done. A climax was near and she would not sit idle.",
+        "tokens": [
+          50364,
+          6595,
+          632,
+          281,
+          312,
+          1096,
+          13,
+          316,
+          41329,
+          390,
+          2651,
+          293,
+          750,
+          576,
+          406,
+          1394,
+          30650,
+          13,
+          50544
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2414902925491333,
+        "compression_ratio": 1.0142857142857142,
+        "no_speech_prob": 0.013193524442613125
+      }
+    ]
+  },
+  "2277-149896-0024": {
+    "file": "2277-149896-0024.flac",
+    "text": "He knew her well enough to know that when she had decided upon a plan, she would follow it up.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.88,
+        "text": " He knew her well enough to know that when she had decided upon a plan, she would follow",
+        "tokens": [
+          50364,
+          634,
+          2586,
+          720,
+          731,
+          1547,
+          281,
+          458,
+          300,
+          562,
+          750,
+          632,
+          3047,
+          3564,
+          257,
+          1393,
+          11,
+          750,
+          576,
+          1524,
+          50558
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17649684128937898,
+        "compression_ratio": 1.1604938271604939,
+        "no_speech_prob": 0.008559353649616241
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 3.88,
+        "end": 4.28,
+        "text": " it up.",
+        "tokens": [
+          50558,
+          309,
+          493,
+          13,
+          50578
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17649684128937898,
+        "compression_ratio": 1.1604938271604939,
+        "no_speech_prob": 0.008559353649616241
+      }
+    ]
+  },
+  "2277-149896-0025": {
+    "file": "2277-149896-0025.flac",
+    "text": "He arose from his chair and went and looked out into the street.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.2,
+        "text": " He arose from his chair and went and looked out into the street.",
+        "tokens": [
+          50364,
+          634,
+          37192,
+          490,
+          702,
+          6090,
+          293,
+          1437,
+          293,
+          2956,
+          484,
+          666,
+          264,
+          4838,
+          13,
+          50524
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21065940576441147,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.013606659136712551
+      }
+    ]
+  },
+  "2277-149896-0026": {
+    "file": "2277-149896-0026.flac",
+    "text": "The long drizzle had begun. Pedestrians had turned up collars and trousers at the bottom.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.8,
+        "text": " The long drizzle had begun. Pedestrians had turned up collars and trousers at the bottom.",
+        "tokens": [
+          50364,
+          440,
+          938,
+          48695,
+          632,
+          16009,
+          13,
+          16689,
+          377,
+          28145,
+          632,
+          3574,
+          493,
+          1263,
+          685,
+          293,
+          41463,
+          412,
+          264,
+          2767,
+          13,
+          50604
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20229559359343155,
+        "compression_ratio": 1.0853658536585367,
+        "no_speech_prob": 0.004674229305237532
+      }
+    ]
+  },
+  "2277-149896-0027": {
+    "file": "2277-149896-0027.flac",
+    "text": "Hearstwood almost exclaimed out loud at the insistency of this thing.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.44,
+        "text": " Hearstwood almost exclaimed out loud at the insistency of this thing.",
+        "tokens": [
+          50364,
+          30685,
+          372,
+          6092,
+          1920,
+          1624,
+          22642,
+          484,
+          6588,
+          412,
+          264,
+          13466,
+          3020,
+          295,
+          341,
+          551,
+          13,
+          50536
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.24875643378809878,
+        "compression_ratio": 0.971830985915493,
+        "no_speech_prob": 0.008564853109419346
+      }
+    ]
+  },
+  "2277-149896-0028": {
+    "file": "2277-149896-0028.flac",
+    "text": "He put on his hat and looked around for his umbrella.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.7600000000000002,
+        "text": " He put on his hat and looked around for his umbrella.",
+        "tokens": [
+          50364,
+          634,
+          829,
+          322,
+          702,
+          2385,
+          293,
+          2956,
+          926,
+          337,
+          702,
+          21925,
+          13,
+          50502
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.18899955749511718,
+        "compression_ratio": 0.9464285714285714,
+        "no_speech_prob": 0.01221933402121067
+      }
+    ]
+  },
+  "2277-149896-0029": {
+    "file": "2277-149896-0029.flac",
+    "text": "he would have some arrangement of this thing.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "text": " he would have some arrangement of this thing.",
+        "tokens": [
+          50364,
+          415,
+          576,
+          362,
+          512,
+          17620,
+          295,
+          341,
+          551,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.29200758536656696,
+        "compression_ratio": 0.9,
+        "no_speech_prob": 0.004746607039123774
+      }
+    ]
+  },
+  "2277-149896-0030": {
+    "file": "2277-149896-0030.flac",
+    "text": "He began to wish that he had compromised in some way or other, that he had sent the money. Perhaps he could do it up here.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.76,
+        "text": " He began to wish that he had compromised in some way or other, that he had sent the money.",
+        "tokens": [
+          50364,
+          634,
+          4283,
+          281,
+          3172,
+          300,
+          415,
+          632,
+          32463,
+          294,
+          512,
+          636,
+          420,
+          661,
+          11,
+          300,
+          415,
+          632,
+          2279,
+          264,
+          1460,
+          13,
+          50602
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1912985689499799,
+        "compression_ratio": 1.2448979591836735,
+        "no_speech_prob": 0.021489204838871956
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.76,
+        "end": 6.16,
+        "text": " Perhaps he could do it up here.",
+        "tokens": [
+          50602,
+          10517,
+          415,
+          727,
+          360,
+          309,
+          493,
+          510,
+          13,
+          50672
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1912985689499799,
+        "compression_ratio": 1.2448979591836735,
+        "no_speech_prob": 0.021489204838871956
+      }
+    ]
+  },
+  "2277-149896-0031": {
+    "file": "2277-149896-0031.flac",
+    "text": "He would go in and see anyhow. He would have no row.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.44,
+        "text": " He would go in and see anyhow. He would have no row.",
+        "tokens": [
+          50364,
+          634,
+          576,
+          352,
+          294,
+          293,
+          536,
+          44995,
+          13,
+          634,
+          576,
+          362,
+          572,
+          5386,
+          13,
+          50536
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.31479790631462545,
+        "compression_ratio": 1.0196078431372548,
+        "no_speech_prob": 0.01200317032635212
+      }
+    ]
+  },
+  "2277-149896-0032": {
+    "file": "2277-149896-0032.flac",
+    "text": "By the time he reached his own street, he was keenly alive to the difficulties of his situation and wished over and over that some solution would offer itself, that he could see his way out.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.36,
+        "text": " By the time he reached his own street, he was keenly alive to the difficulties of his",
+        "tokens": [
+          50364,
+          3146,
+          264,
+          565,
+          415,
+          6488,
+          702,
+          1065,
+          4838,
+          11,
+          415,
+          390,
+          20297,
+          356,
+          5465,
+          281,
+          264,
+          14399,
+          295,
+          702,
+          50582
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1532202071331917,
+        "compression_ratio": 1.484375,
+        "no_speech_prob": 0.018457066267728806
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.36,
+        "end": 9.4,
+        "text": " situation and wished over and over that some solution would offer itself, that he could",
+        "tokens": [
+          50582,
+          2590,
+          293,
+          25811,
+          670,
+          293,
+          670,
+          300,
+          512,
+          3827,
+          576,
+          2626,
+          2564,
+          11,
+          300,
+          415,
+          727,
+          50834
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1532202071331917,
+        "compression_ratio": 1.484375,
+        "no_speech_prob": 0.018457066267728806
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 9.4,
+        "end": 10.52,
+        "text": " see his way out.",
+        "tokens": [
+          50834,
+          536,
+          702,
+          636,
+          484,
+          13,
+          50890
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1532202071331917,
+        "compression_ratio": 1.484375,
+        "no_speech_prob": 0.018457066267728806
+      }
+    ]
+  },
+  "2277-149896-0033": {
+    "file": "2277-149896-0033.flac",
+    "text": "Then he rang the bell. No answer.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " Then he rang the bell. No answer.",
+        "tokens": [
+          50364,
+          1396,
+          415,
+          32434,
+          264,
+          4549,
+          13,
+          883,
+          1867,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.3748384714126587,
+        "compression_ratio": 0.8461538461538461,
+        "no_speech_prob": 0.012407234869897366
+      }
+    ]
+  },
+  "2277-149896-0034": {
+    "file": "2277-149896-0034.flac",
+    "text": "He rang again, this time harder. Still no answer.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.64,
+        "text": " He rang again, this time harder.",
+        "tokens": [
+          50364,
+          634,
+          32434,
+          797,
+          11,
+          341,
+          565,
+          6081,
+          13,
+          50496
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.45928158479578357,
+        "compression_ratio": 0.875,
+        "no_speech_prob": 0.007211950141936541
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 2.64,
+        "end": 3.7600000000000002,
+        "text": " Still no answer.",
+        "tokens": [
+          50496,
+          8291,
+          572,
+          1867,
+          13,
+          50552
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.45928158479578357,
+        "compression_ratio": 0.875,
+        "no_speech_prob": 0.007211950141936541
+      }
+    ]
+  },
+  "2277-149897-0000": {
+    "file": "2277-149897-0000.flac",
+    "text": "When Hearthwood got back to his office again, he was in a greater quandary than ever.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.2,
+        "text": " When Hearthwood got back to his office again, he was in a greater quandary than ever.",
+        "tokens": [
+          50364,
+          1133,
+          634,
+          18352,
+          6092,
+          658,
+          646,
+          281,
+          702,
+          3398,
+          797,
+          11,
+          415,
+          390,
+          294,
+          257,
+          5044,
+          6932,
+          822,
+          813,
+          1562,
+          13,
+          50574
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2582261959711711,
+        "compression_ratio": 1.0759493670886076,
+        "no_speech_prob": 0.024683674797415733
+      }
+    ]
+  },
+  "2277-149897-0001": {
+    "file": "2277-149897-0001.flac",
+    "text": "He could hardly realize how it had all come about.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.64,
+        "text": " He could hardly realize how it had all come about.",
+        "tokens": [
+          50364,
+          634,
+          727,
+          13572,
+          4325,
+          577,
+          309,
+          632,
+          439,
+          808,
+          466,
+          13,
+          50496
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.32381302969796316,
+        "compression_ratio": 0.8928571428571429,
+        "no_speech_prob": 0.010801111347973347
+      }
+    ]
+  },
+  "2277-149897-0002": {
+    "file": "2277-149897-0002.flac",
+    "text": "No letter had come, no word of any kind, and yet here it was late in the evening, and she had agreed to meet him that morning.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 6.0,
+        "text": " No letter had come, no word of any kind, and yet here it was late in the evening, and she had agreed to meet him that morning.",
+        "tokens": [
+          50364,
+          883,
+          5063,
+          632,
+          808,
+          11,
+          572,
+          1349,
+          295,
+          604,
+          733,
+          11,
+          293,
+          1939,
+          510,
+          309,
+          390,
+          3469,
+          294,
+          264,
+          5634,
+          11,
+          293,
+          750,
+          632,
+          9166,
+          281,
+          1677,
+          796,
+          300,
+          2446,
+          13,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.15497408193700454,
+        "compression_ratio": 1.2857142857142858,
+        "no_speech_prob": 0.03448370099067688
+      }
+    ]
+  },
+  "2277-149897-0003": {
+    "file": "2277-149897-0003.flac",
+    "text": "He saw that in the excitement of recent events, he had not formulated a plan upon that score.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.64,
+        "text": " He saw that in the excitement of recent events, he had not formulated a plan upon that score.",
+        "tokens": [
+          50364,
+          634,
+          1866,
+          300,
+          294,
+          264,
+          14755,
+          295,
+          5162,
+          3931,
+          11,
+          415,
+          632,
+          406,
+          48936,
+          257,
+          1393,
+          3564,
+          300,
+          6175,
+          13,
+          50596
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14232723609260892,
+        "compression_ratio": 1.1204819277108433,
+        "no_speech_prob": 0.02053108438849449
+      }
+    ]
+  },
+  "2277-149897-0004": {
+    "file": "2277-149897-0004.flac",
+    "text": "He was getting some big comfort out of a good cigar, but it was no panacea for the ill which affected him.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.5,
+        "text": " He was getting some big comfort out of a good cigar, but it was no panacea for the ill which affected him.",
+        "tokens": [
+          50364,
+          634,
+          390,
+          1242,
+          512,
+          955,
+          3400,
+          484,
+          295,
+          257,
+          665,
+          41952,
+          11,
+          457,
+          309,
+          390,
+          572,
+          2462,
+          617,
+          64,
+          337,
+          264,
+          3171,
+          597,
+          8028,
+          796,
+          13,
+          50639
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1700864495902226,
+        "compression_ratio": 1.1777777777777778,
+        "no_speech_prob": 0.017623892053961754
+      }
+    ]
+  },
+  "2277-149897-0005": {
+    "file": "2277-149897-0005.flac",
+    "text": "It was with great opposition, after two or three hours of the most urgent mental affirmation and denial, that at last he got an envelope placed in it the requested amount and slowly sealed it up.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.16,
+        "text": " It was with great opposition, after two or three hours of the most urgent mental affirmation",
+        "tokens": [
+          50364,
+          467,
+          390,
+          365,
+          869,
+          13504,
+          11,
+          934,
+          732,
+          420,
+          1045,
+          2496,
+          295,
+          264,
+          881,
+          19022,
+          4973,
+          21260,
+          399,
+          50622
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1831925371859936,
+        "compression_ratio": 1.4130434782608696,
+        "no_speech_prob": 0.005374316591769457
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.16,
+        "end": 10.24,
+        "text": " and denial, that at last he got an envelope placed in it the requested amount and slowly",
+        "tokens": [
+          50622,
+          293,
+          28754,
+          11,
+          300,
+          412,
+          1036,
+          415,
+          658,
+          364,
+          19989,
+          7074,
+          294,
+          309,
+          264,
+          16436,
+          2372,
+          293,
+          5692,
+          50876
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1831925371859936,
+        "compression_ratio": 1.4130434782608696,
+        "no_speech_prob": 0.005374316591769457
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 10.24,
+        "end": 10.96,
+        "text": " sealed it up.",
+        "tokens": [
+          50876,
+          21514,
+          309,
+          493,
+          13,
+          50912
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1831925371859936,
+        "compression_ratio": 1.4130434782608696,
+        "no_speech_prob": 0.005374316591769457
+      }
+    ]
+  },
+  "2277-149897-0006": {
+    "file": "2277-149897-0006.flac",
+    "text": "Then he called Harry, the boy of all work around the place.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " Then he called Harry, the boy of all work around the place.",
+        "tokens": [
+          50364,
+          1396,
+          415,
+          1219,
+          9378,
+          11,
+          264,
+          3237,
+          295,
+          439,
+          589,
+          926,
+          264,
+          1081,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22178994908052332,
+        "compression_ratio": 0.9672131147540983,
+        "no_speech_prob": 0.012003922834992409
+      }
+    ]
+  },
+  "2277-149897-0007": {
+    "file": "2277-149897-0007.flac",
+    "text": "You take this to this address,\" he said, handing him the envelope, and give it to Mrs. Hurstwood. Yes, sir,\" said the boy.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.88,
+        "text": " You take this to this address,\" he said, handing him the envelope, and give it to Mrs.",
+        "tokens": [
+          50364,
+          509,
+          747,
+          341,
+          281,
+          341,
+          2985,
+          2494,
+          415,
+          848,
+          11,
+          34774,
+          796,
+          264,
+          19989,
+          11,
+          293,
+          976,
+          309,
+          281,
+          9814,
+          13,
+          50608
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19859745502471923,
+        "compression_ratio": 1.1730769230769231,
+        "no_speech_prob": 0.012583596631884575
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.88,
+        "end": 5.88,
+        "text": " Hurstwood.",
+        "tokens": [
+          50608,
+          8598,
+          372,
+          6092,
+          13,
+          50658
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19859745502471923,
+        "compression_ratio": 1.1730769230769231,
+        "no_speech_prob": 0.012583596631884575
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 5.88,
+        "end": 7.36,
+        "text": " Yes, sir,\" said the boy.",
+        "tokens": [
+          50658,
+          1079,
+          11,
+          4735,
+          2494,
+          848,
+          264,
+          3237,
+          13,
+          50732
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19859745502471923,
+        "compression_ratio": 1.1730769230769231,
+        "no_speech_prob": 0.012583596631884575
+      }
+    ]
+  },
+  "2277-149897-0008": {
+    "file": "2277-149897-0008.flac",
+    "text": "Any answer? I guess not.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "text": " Any answer? I guess not.",
+        "tokens": [
+          50364,
+          2639,
+          1867,
+          30,
+          286,
+          2041,
+          406,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4357930660247803,
+        "compression_ratio": 0.75,
+        "no_speech_prob": 0.018132701516151428
+      }
+    ]
+  },
+  "2277-149897-0009": {
+    "file": "2277-149897-0009.flac",
+    "text": "The boy hastened away and the manager fell to his musings.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.5,
+        "text": " The boy hastened away and the manager fell to his musings.",
+        "tokens": [
+          50364,
+          440,
+          3237,
+          6581,
+          5320,
+          1314,
+          293,
+          264,
+          6598,
+          5696,
+          281,
+          702,
+          1038,
+          1109,
+          13,
+          50539
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22731953508713665,
+        "compression_ratio": 0.90625,
+        "no_speech_prob": 0.03232015296816826
+      }
+    ]
+  },
+  "2277-149897-0010": {
+    "file": "2277-149897-0010.flac",
+    "text": "He was beaten for tonight and he might just as well make the best of it.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.5,
+        "text": " He was beaten for tonight and he might just as well make the best of it.",
+        "tokens": [
+          50364,
+          634,
+          390,
+          17909,
+          337,
+          4440,
+          293,
+          415,
+          1062,
+          445,
+          382,
+          731,
+          652,
+          264,
+          1151,
+          295,
+          309,
+          13,
+          50539
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2090665340423584,
+        "compression_ratio": 1.0285714285714285,
+        "no_speech_prob": 0.0688701793551445
+      }
+    ]
+  },
+  "2277-149897-0011": {
+    "file": "2277-149897-0011.flac",
+    "text": "She would take the envelope and know that she had triumphed.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " She would take the envelope and know that she had triumphed.",
+        "tokens": [
+          50364,
+          1240,
+          576,
+          747,
+          264,
+          19989,
+          293,
+          458,
+          300,
+          750,
+          632,
+          29156,
+          292,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2451394498348236,
+        "compression_ratio": 0.9523809523809523,
+        "no_speech_prob": 0.005041707307100296
+      }
+    ]
+  },
+  "2277-149897-0012": {
+    "file": "2277-149897-0012.flac",
+    "text": "If he only had that letter back, he wouldn't send it.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " If he only had that letter back, he wouldn't send it.",
+        "tokens": [
+          50364,
+          759,
+          415,
+          787,
+          632,
+          300,
+          5063,
+          646,
+          11,
+          415,
+          2759,
+          380,
+          2845,
+          309,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19203773666830623,
+        "compression_ratio": 0.8983050847457628,
+        "no_speech_prob": 0.02590419165790081
+      }
+    ]
+  },
+  "2277-149897-0013": {
+    "file": "2277-149897-0013.flac",
+    "text": "For relief, he arose and joined in the conversation with a few friends who were drinking.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.16,
+        "text": " For relief, he arose and joined in the conversation with a few friends who were drinking.",
+        "tokens": [
+          50364,
+          1171,
+          10915,
+          11,
+          415,
+          37192,
+          293,
+          6869,
+          294,
+          264,
+          3761,
+          365,
+          257,
+          1326,
+          1855,
+          567,
+          645,
+          7583,
+          13,
+          50572
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.11786526725405738,
+        "compression_ratio": 1.1265822784810127,
+        "no_speech_prob": 0.01846231520175934
+      }
+    ]
+  },
+  "2277-149897-0014": {
+    "file": "2277-149897-0014.flac",
+    "text": "All the time, his thoughts would run out to his home and see the scene being there and enacted.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " All the time, his thoughts would run out to his home and see the scene being there and enacted.",
+        "tokens": [
+          50364,
+          1057,
+          264,
+          565,
+          11,
+          702,
+          4598,
+          576,
+          1190,
+          484,
+          281,
+          702,
+          1280,
+          293,
+          536,
+          264,
+          4145,
+          885,
+          456,
+          293,
+          41313,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23717910051345825,
+        "compression_ratio": 1.1728395061728396,
+        "no_speech_prob": 0.02185915783047676
+      }
+    ]
+  },
+  "2277-149897-0015": {
+    "file": "2277-149897-0015.flac",
+    "text": "In about an hour and three quarters, the boy returned.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " In about an hour and three quarters, the boy returned.",
+        "tokens": [
+          50364,
+          682,
+          466,
+          364,
+          1773,
+          293,
+          1045,
+          20612,
+          11,
+          264,
+          3237,
+          8752,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2724385579427083,
+        "compression_ratio": 0.9152542372881356,
+        "no_speech_prob": 0.034448735415935516
+      }
+    ]
+  },
+  "2277-149897-0016": {
+    "file": "2277-149897-0016.flac",
+    "text": "He fancied as he sat at his desk that nothing would be done for a week or two. Meanwhile, he would have time to think.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.0,
+        "text": " He fancied as he sat at his desk that nothing would be done for a week or two.",
+        "tokens": [
+          50364,
+          634,
+          3429,
+          537,
+          292,
+          382,
+          415,
+          3227,
+          412,
+          702,
+          10026,
+          300,
+          1825,
+          576,
+          312,
+          1096,
+          337,
+          257,
+          1243,
+          420,
+          732,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1478205680847168,
+        "compression_ratio": 1.2040816326530612,
+        "no_speech_prob": 0.009252624586224556
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.0,
+        "end": 6.0,
+        "text": " Meanwhile, he would have time to think.",
+        "tokens": [
+          50564,
+          13879,
+          11,
+          415,
+          576,
+          362,
+          565,
+          281,
+          519,
+          13,
+          50664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1478205680847168,
+        "compression_ratio": 1.2040816326530612,
+        "no_speech_prob": 0.009252624586224556
+      }
+    ]
+  },
+  "2277-149897-0017": {
+    "file": "2277-149897-0017.flac",
+    "text": "How about that now? His pain at her failure to meet or write him rapidly increased as he devoted himself to the subject.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 7.0,
+        "text": " How about that now? His pain at her failure to meet or write him rapidly increased as he devoted himself to the subject.",
+        "tokens": [
+          50364,
+          1012,
+          466,
+          300,
+          586,
+          30,
+          2812,
+          1822,
+          412,
+          720,
+          7763,
+          281,
+          1677,
+          420,
+          2464,
+          796,
+          12910,
+          6505,
+          382,
+          415,
+          21815,
+          3647,
+          281,
+          264,
+          3983,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.16180825233459473,
+        "compression_ratio": 1.2,
+        "no_speech_prob": 0.01998882181942463
+      }
+    ]
+  },
+  "2277-149897-0018": {
+    "file": "2277-149897-0018.flac",
+    "text": "He decided to write her care of the West Side Post Office and asked for an explanation, as well as to have her meet him.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " He decided to write her care of the West Side Post Office and asked for an explanation,",
+        "tokens": [
+          50364,
+          634,
+          3047,
+          281,
+          2464,
+          720,
+          1127,
+          295,
+          264,
+          4055,
+          19026,
+          10223,
+          8935,
+          293,
+          2351,
+          337,
+          364,
+          10835,
+          11,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2307775765657425,
+        "compression_ratio": 1.1650485436893203,
+        "no_speech_prob": 0.016344930976629257
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.0,
+        "end": 6.4,
+        "text": " as well as to have her meet him.",
+        "tokens": [
+          50614,
+          382,
+          731,
+          382,
+          281,
+          362,
+          720,
+          1677,
+          796,
+          13,
+          50684
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2307775765657425,
+        "compression_ratio": 1.1650485436893203,
+        "no_speech_prob": 0.016344930976629257
+      }
+    ]
+  },
+  "2277-149897-0019": {
+    "file": "2277-149897-0019.flac",
+    "text": "3 o'clock came, 4, 5, 6, and no letter.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " 3 o'clock came, 4, 5, 6, and no letter.",
+        "tokens": [
+          50364,
+          805,
+          277,
+          6,
+          9023,
+          1361,
+          11,
+          1017,
+          11,
+          1025,
+          11,
+          1386,
+          11,
+          293,
+          572,
+          5063,
+          13,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.314870558286968,
+        "compression_ratio": 0.8297872340425532,
+        "no_speech_prob": 0.029649890959262848
+      }
+    ]
+  },
+  "2277-149897-0020": {
+    "file": "2277-149897-0020.flac",
+    "text": "The helpless manager paced the floor and grimly endured the gloom of defeat.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.4,
+        "text": " The helpless manager paced the floor and grimly endured the gloom of defeat.",
+        "tokens": [
+          50364,
+          440,
+          27596,
+          6598,
+          280,
+          3839,
+          264,
+          4123,
+          293,
+          36010,
+          356,
+          39017,
+          264,
+          3114,
+          298,
+          295,
+          11785,
+          13,
+          50584
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22490289211273193,
+        "compression_ratio": 1.0555555555555556,
+        "no_speech_prob": 0.006263398565351963
+      }
+    ]
+  },
+  "2277-149897-0021": {
+    "file": "2277-149897-0021.flac",
+    "text": "He saw a busy Saturday ushered out, the Sabbath in, and nothing done.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.4,
+        "text": " He saw a busy Saturday ushered out, the Sabbath in, and nothing done.",
+        "tokens": [
+          50364,
+          634,
+          1866,
+          257,
+          5856,
+          8803,
+          505,
+          511,
+          292,
+          484,
+          11,
+          264,
+          36618,
+          294,
+          11,
+          293,
+          1825,
+          1096,
+          13,
+          50584
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1577180794307164,
+        "compression_ratio": 0.9857142857142858,
+        "no_speech_prob": 0.011123414151370525
+      }
+    ]
+  },
+  "2277-149897-0022": {
+    "file": "2277-149897-0022.flac",
+    "text": "All day, the bar being closed, he rooted alone, shut out from home, from the excitement of his resort, from Carrie, and without the ability to alter his condition one iota.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.1000000000000005,
+        "text": " All day, the bar being closed, he rooted alone, shut out from home, from the excitement of",
+        "tokens": [
+          50364,
+          1057,
+          786,
+          11,
+          264,
+          2159,
+          885,
+          5395,
+          11,
+          415,
+          25277,
+          3312,
+          11,
+          5309,
+          484,
+          490,
+          1280,
+          11,
+          490,
+          264,
+          14755,
+          295,
+          50619
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20533167232166638,
+        "compression_ratio": 1.3650793650793651,
+        "no_speech_prob": 0.02664089761674404
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.1000000000000005,
+        "end": 9.78,
+        "text": " his resort, from Carrie, and without the ability to alter his condition one iota.",
+        "tokens": [
+          50619,
+          702,
+          19606,
+          11,
+          490,
+          34654,
+          11,
+          293,
+          1553,
+          264,
+          3485,
+          281,
+          11337,
+          702,
+          4188,
+          472,
+          741,
+          5377,
+          13,
+          50853
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20533167232166638,
+        "compression_ratio": 1.3650793650793651,
+        "no_speech_prob": 0.02664089761674404
+      }
+    ]
+  },
+  "2277-149897-0023": {
+    "file": "2277-149897-0023.flac",
+    "text": "It was the worst Sunday he had spent in his life.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " It was the worst Sunday he had spent in his life.",
+        "tokens": [
+          50364,
+          467,
+          390,
+          264,
+          5855,
+          7776,
+          415,
+          632,
+          4418,
+          294,
+          702,
+          993,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17638349533081055,
+        "compression_ratio": 0.8909090909090909,
+        "no_speech_prob": 0.0056198155507445335
+      }
+    ]
+  },
+  "2277-149897-0024": {
+    "file": "2277-149897-0024.flac",
+    "text": "It seemed as if his family troubles were just beginning.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.0,
+        "text": " It seemed as if his family troubles were just beginning.",
+        "tokens": [
+          50364,
+          467,
+          6576,
+          382,
+          498,
+          702,
+          1605,
+          15379,
+          645,
+          445,
+          2863,
+          13,
+          50514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2307849611554827,
+        "compression_ratio": 0.9180327868852459,
+        "no_speech_prob": 0.006179038900882006
+      }
+    ]
+  },
+  "2277-149897-0025": {
+    "file": "2277-149897-0025.flac",
+    "text": "He was quite certain now that she knew he was married and was angered at his perfidy.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.0,
+        "text": " He was quite certain now that she knew he was married and was angered at his perfidy.",
+        "tokens": [
+          50364,
+          634,
+          390,
+          1596,
+          1629,
+          586,
+          300,
+          750,
+          2586,
+          415,
+          390,
+          5259,
+          293,
+          390,
+          10240,
+          292,
+          412,
+          702,
+          13826,
+          38836,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20193583032359247,
+        "compression_ratio": 1.1333333333333333,
+        "no_speech_prob": 0.031422752887010574
+      }
+    ]
+  },
+  "2277-149897-0026": {
+    "file": "2277-149897-0026.flac",
+    "text": "He had loved her earnestly enough, but now that the possibility of losing her stared him in the face, she seemed much more attractive.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.04,
+        "text": " He had loved her earnestly enough, but now that the possibility of losing her stared",
+        "tokens": [
+          50364,
+          634,
+          632,
+          4333,
+          720,
+          6012,
+          11154,
+          1547,
+          11,
+          457,
+          586,
+          300,
+          264,
+          7959,
+          295,
+          7027,
+          720,
+          44738,
+          50566
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14243010318640506,
+        "compression_ratio": 1.2407407407407407,
+        "no_speech_prob": 0.014678740873932838
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.04,
+        "end": 6.5200000000000005,
+        "text": " him in the face, she seemed much more attractive.",
+        "tokens": [
+          50566,
+          796,
+          294,
+          264,
+          1851,
+          11,
+          750,
+          6576,
+          709,
+          544,
+          12609,
+          13,
+          50690
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.14243010318640506,
+        "compression_ratio": 1.2407407407407407,
+        "no_speech_prob": 0.014678740873932838
+      }
+    ]
+  },
+  "2277-149897-0027": {
+    "file": "2277-149897-0027.flac",
+    "text": "He would go to her and tell her all his family complications.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.2800000000000002,
+        "text": " He would go to her and tell her all his family complications.",
+        "tokens": [
+          50364,
+          634,
+          576,
+          352,
+          281,
+          720,
+          293,
+          980,
+          720,
+          439,
+          702,
+          1605,
+          26566,
+          13,
+          50528
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2687969505786896,
+        "compression_ratio": 0.9838709677419355,
+        "no_speech_prob": 0.008427979424595833
+      }
+    ]
+  },
+  "2277-149897-0028": {
+    "file": "2277-149897-0028.flac",
+    "text": "He would explain to her just where he stood and how much he needed her.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 3.44,
+        "text": " He would explain to her just where he stood and how much he needed her.",
+        "tokens": [
+          50364,
+          634,
+          576,
+          2903,
+          281,
+          720,
+          445,
+          689,
+          415,
+          9371,
+          293,
+          577,
+          709,
+          415,
+          2978,
+          720,
+          13,
+          50536
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.17483287108571907,
+        "compression_ratio": 1.0289855072463767,
+        "no_speech_prob": 0.012212283909320831
+      }
+    ]
+  },
+  "2277-149897-0029": {
+    "file": "2277-149897-0029.flac",
+    "text": "He did manage to bring himself into the mood to go out to carry, but when he got in Ogden Place, he thought he saw a man watching him and went away.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.8,
+        "text": " He did manage to bring himself into the mood to go out to carry, but when he got in Ogden",
+        "tokens": [
+          50364,
+          634,
+          630,
+          3067,
+          281,
+          1565,
+          3647,
+          666,
+          264,
+          9268,
+          281,
+          352,
+          484,
+          281,
+          3985,
+          11,
+          457,
+          562,
+          415,
+          658,
+          294,
+          14883,
+          1556,
+          50604
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.13896469953583507,
+        "compression_ratio": 1.3097345132743363,
+        "no_speech_prob": 0.011130256578326225
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.8,
+        "end": 7.4,
+        "text": " Place, he thought he saw a man watching him and went away.",
+        "tokens": [
+          50604,
+          13637,
+          11,
+          415,
+          1194,
+          415,
+          1866,
+          257,
+          587,
+          1976,
+          796,
+          293,
+          1437,
+          1314,
+          13,
+          50734
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.13896469953583507,
+        "compression_ratio": 1.3097345132743363,
+        "no_speech_prob": 0.011130256578326225
+      }
+    ]
+  },
+  "2277-149897-0030": {
+    "file": "2277-149897-0030.flac",
+    "text": "He did not go within a block of the house.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "text": " He did not go within a block of the house.",
+        "tokens": [
+          50364,
+          634,
+          630,
+          406,
+          352,
+          1951,
+          257,
+          3461,
+          295,
+          264,
+          1782,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.23976823261805943,
+        "compression_ratio": 0.84,
+        "no_speech_prob": 0.010295785963535309
+      }
+    ]
+  },
+  "2277-149897-0031": {
+    "file": "2277-149897-0031.flac",
+    "text": "He troubled over many little details and talked perfunctorily to everybody.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.16,
+        "text": " He troubled over many little details and talked perfunctorily to everybody.",
+        "tokens": [
+          50364,
+          634,
+          29402,
+          670,
+          867,
+          707,
+          4365,
+          293,
+          2825,
+          13826,
+          409,
+          1672,
+          953,
+          281,
+          2201,
+          13,
+          50572
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21923548645443386,
+        "compression_ratio": 1.0416666666666667,
+        "no_speech_prob": 0.00951407104730606
+      }
+    ]
+  },
+  "2277-149897-0032": {
+    "file": "2277-149897-0032.flac",
+    "text": "He stayed at his desk long after all others had gone and only quitted it when the night watchman on his round pulled at the front door to see if it was safely locked.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.0,
+        "text": " He stayed at his desk long after all others had gone and only quitted it when the night",
+        "tokens": [
+          50364,
+          634,
+          9181,
+          412,
+          702,
+          10026,
+          938,
+          934,
+          439,
+          2357,
+          632,
+          2780,
+          293,
+          787,
+          421,
+          3944,
+          309,
+          562,
+          264,
+          1818,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.13441302662804014,
+        "compression_ratio": 1.371900826446281,
+        "no_speech_prob": 0.017383050173521042
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.0,
+        "end": 8.4,
+        "text": " watchman on his round pulled at the front door to see if it was safely locked.",
+        "tokens": [
+          50614,
+          1159,
+          1601,
+          322,
+          702,
+          3098,
+          7373,
+          412,
+          264,
+          1868,
+          2853,
+          281,
+          536,
+          498,
+          309,
+          390,
+          11750,
+          9376,
+          13,
+          50784
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.13441302662804014,
+        "compression_ratio": 1.371900826446281,
+        "no_speech_prob": 0.017383050173521042
+      }
+    ]
+  },
+  "2277-149897-0033": {
+    "file": "2277-149897-0033.flac",
+    "text": "On Wednesday, he received another polite note from McGregor, James, and Hay. It read,",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.0,
+        "text": " On Wednesday, he received another polite note from McGregor, James, and Hay.",
+        "tokens": [
+          50364,
+          1282,
+          10579,
+          11,
+          415,
+          4613,
+          1071,
+          25171,
+          3637,
+          490,
+          21865,
+          3375,
+          284,
+          11,
+          5678,
+          11,
+          293,
+          8721,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2759568507854755,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.007440577726811171
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 4.0,
+        "end": 5.0,
+        "text": " It read,",
+        "tokens": [
+          50564,
+          467,
+          1401,
+          11,
+          50614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.2759568507854755,
+        "compression_ratio": 1.0,
+        "no_speech_prob": 0.007440577726811171
+      }
+    ]
+  },
+  "2277-149897-0034": {
+    "file": "2277-149897-0034.flac",
+    "text": "Dear sir, we beg to inform you that we are instructed to wait until tomorrow, Thursday, at one o'clock, before filing suit against you on behalf of Mrs. Julia Hurstwood for divorce and alimony.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 5.44,
+        "text": " Dear sir, we beg to inform you that we are instructed to wait until tomorrow, Thursday,",
+        "tokens": [
+          50364,
+          14383,
+          4735,
+          11,
+          321,
+          4612,
+          281,
+          1356,
+          291,
+          300,
+          321,
+          366,
+          36384,
+          281,
+          1699,
+          1826,
+          4153,
+          11,
+          10383,
+          11,
+          50636
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19751178093676297,
+        "compression_ratio": 1.304054054054054,
+        "no_speech_prob": 0.044979214668273926
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 5.44,
+        "end": 10.8,
+        "text": " at one o'clock, before filing suit against you on behalf of Mrs. Julia Hurstwood for",
+        "tokens": [
+          50636,
+          412,
+          472,
+          277,
+          6,
+          9023,
+          11,
+          949,
+          26854,
+          5722,
+          1970,
+          291,
+          322,
+          9490,
+          295,
+          9814,
+          13,
+          18551,
+          8598,
+          372,
+          6092,
+          337,
+          50904
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19751178093676297,
+        "compression_ratio": 1.304054054054054,
+        "no_speech_prob": 0.044979214668273926
+      },
+      {
+        "id": 2,
+        "seek": 0,
+        "start": 10.8,
+        "end": 12.0,
+        "text": " divorce and alimony.",
+        "tokens": [
+          50904,
+          16052,
+          293,
+          419,
+          332,
+          2526,
+          13,
+          50964
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.19751178093676297,
+        "compression_ratio": 1.304054054054054,
+        "no_speech_prob": 0.044979214668273926
+      }
+    ]
+  },
+  "2277-149897-0035": {
+    "file": "2277-149897-0035.flac",
+    "text": "Very truly yours, etc. Compromise.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.0,
+        "text": " Very truly yours, etc.",
+        "tokens": [
+          50364,
+          4372,
+          4908,
+          6342,
+          11,
+          5183,
+          13,
+          50464
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5931304295857748,
+        "compression_ratio": 0.8095238095238095,
+        "no_speech_prob": 0.06331632286310196
+      },
+      {
+        "id": 1,
+        "seek": 0,
+        "start": 2.0,
+        "end": 4.0,
+        "text": " Compromise.",
+        "tokens": [
+          50464,
+          2432,
+          28722,
+          908,
+          13,
+          50564
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.5931304295857748,
+        "compression_ratio": 0.8095238095238095,
+        "no_speech_prob": 0.06331632286310196
+      }
+    ]
+  },
+  "2277-149897-0036": {
+    "file": "2277-149897-0036.flac",
+    "text": "So here it was, spread out clear before him, and now he knew what to expect.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 4.16,
+        "text": " So here it was, spread out clear before him, and now he knew what to expect.",
+        "tokens": [
+          50364,
+          407,
+          510,
+          309,
+          390,
+          11,
+          3974,
+          484,
+          1850,
+          949,
+          796,
+          11,
+          293,
+          586,
+          415,
+          2586,
+          437,
+          281,
+          2066,
+          13,
+          50572
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.20153537663546475,
+        "compression_ratio": 1.027027027027027,
+        "no_speech_prob": 0.006268636789172888
+      }
+    ]
+  },
+  "2277-149897-0037": {
+    "file": "2277-149897-0037.flac",
+    "text": "If he didn't go and see them, they would sue him promptly.",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 2.7600000000000002,
+        "text": " If he didn't go and see them, they would sue him promptly.",
+        "tokens": [
+          50364,
+          759,
+          415,
+          994,
+          380,
+          352,
+          293,
+          536,
+          552,
+          11,
+          436,
+          576,
+          20416,
+          796,
+          48594,
+          13,
+          50502
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.1901543935139974,
+        "compression_ratio": 0.9354838709677419,
+        "no_speech_prob": 0.024327265098690987
+      }
+    ]
+  }
+}

@@ -11,8 +11,8 @@ from .parse import HushError, Segment, read_transcript
 WEIGHTS = {"NO_SPEECH": 3, "BEYOND_AUDIO": 3, "BAD_TIME": 2, "LOOP": 2, "TOO_FAST": 2, "PHANTOM_PHRASE": 2, "LOW_SPEECH": 1, "NOT_SPEECH_LIKE": 1, "REPEAT": 1}
 LIKELY_AT = 3
 NO_SPEECH_BELOW = 0.15     # less than this share of the line has sound -> nothing was said there
-LOW_SPEECH_BELOW = 0.28
-NOT_SPEECH_DEPTH = 0.20    # loudness pulses less than this at syllable speed -> sounds like a hum or music, not talking
+LOW_SPEECH_BELOW = 0.39
+NOT_SPEECH_DEPTH = 0.27    # loudness pulses less than this at syllable speed -> sounds like a hum or music, not talking
 
 
 @dataclass

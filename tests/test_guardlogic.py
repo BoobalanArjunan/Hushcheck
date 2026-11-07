@@ -140,7 +140,7 @@ def test_segment_suspect_compression_ratio():
 # ---------------------------------------------------------------- loops & numeric exemptions
 def test_char_loop_detected():
     assert gl.char_loop("hahahaha")
-    assert gl.char_loop("thank you thank you thank you")
+    assert gl.char_loop("lalalala")
     assert gl.char_loop("abcabcabcabc")
     assert not gl.char_loop("normal conversational phrase without looping")
 

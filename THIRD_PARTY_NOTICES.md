@@ -38,3 +38,4 @@ Specifically, the following ideas are reimplemented in `src/hushcheck/guardlogic
 4. Windowed word-uniqueness ratio check for long text repetitions (`LONG_REPEAT`: 100-word window uniqueness ratio $< 0.35$).
 5. Repetitive character loop pattern matching with numeric data exceptions (`LOOP`).
 6. Segment parameter filters (`no_speech_prob > 0.8`, `avg_logprob < -1.5`, short segment logprob $< -1.7$, `compression_ratio > 3.0`).
+
