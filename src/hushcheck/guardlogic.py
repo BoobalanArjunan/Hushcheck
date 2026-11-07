@@ -34,8 +34,6 @@ _ALPHANUM_ONLY = re.compile(r"[\W_]", re.UNICODE)
 _NUMERIC_UNIT = re.compile(r"^[\d.,:/+\-$%]+$")
 _THOUSANDS_GROUP = re.compile(r"^[.,]\d{3}$")
 _CHAR_LOOP = re.compile(r"(.{%d,%d})\1{%d,}" % (LOOP_MIN_PATTERN, LOOP_MAX_PATTERN, LOOP_MIN_REPEATS - 1))
-_SPAN_LOOP = re.compile(r"(.{20,}?)\1{2,}")
-_PHRASE_LOOP = re.compile(r"(.{3,}?)(?:\s+\1){2,}")
 
 
 def char_density(text: str, duration: float) -> float:
@@ -155,12 +153,8 @@ def is_numeric_data(match: re.Match) -> bool:
 
 
 def char_loop(text: str) -> bool:
-    """True if text contains 2-4 character loops, phrase loops, or 20+ char loops repeated 3+ times, excluding numeric data."""
-    for pattern in (_CHAR_LOOP, _SPAN_LOOP, _PHRASE_LOOP):
-        for m in pattern.finditer(text):
-            if not is_numeric_data(m):
-                return True
-    return False
+    """True if text contains 2-4 character loops repeated 3+ times, excluding numeric data under 20 chars."""
+    return any(not is_numeric_data(m) for m in _CHAR_LOOP.finditer(text))
 
 
 def long_repeat(words: List[str]) -> bool:

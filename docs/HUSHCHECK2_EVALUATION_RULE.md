@@ -11,8 +11,8 @@ the test data is touched. If anything below is wrong, fix it BEFORE the test and
 
 | Set | Contents | Role |
 |---|---|---|
-| Calibration | 2 AMI meetings not used before; 100 LibriSpeech dev-clean files | choose the audio thresholds (design note section 4) and measure how often the text/timing rules fire on real speech |
-| Test | at least 4 AMI meetings not used before; at least 6 music-only recordings (at least 2 genres, not the used piano tracks); at least 4 noise-only recordings (not the used two) | the single scored run |
+| Calibration | 4 AMI meetings not used before (EN2001a, EN2002a, ES2003a, IS1001a); 100 LibriSpeech dev-clean files | choose the audio thresholds (design note section 4) and measure how often the text/timing rules fire on real speech |
+| Test | at least 6 AMI meetings not used before (EN2003a, ES2004a, IS1003a, TS3004a, EN2004a, EN2005a); 100 LibriSpeech test-clean read speech files; at least 6 music-only recordings (at least 2 genres, not the used piano tracks); at least 4 noise-only recordings (not the used two) | the single scored run |
 | Unseen reserve | 2 further recordings of each kind | opened only after the test, only for a sanity check |
 
 Check each dataset's licence. Audio stays out of git. Test and calibration recordings must be different recordings.
@@ -58,8 +58,13 @@ use the paired difference over the same lines in the same bootstrap resamples. R
 - Claim (b)'s false-alarm condition is an absolute 2.0% instead of "no higher than whisper-guard's". A review mode feeds a human queue
   and accepts some false alarms; the stricter relative condition (not higher than whisper-guard's) is **also reported**, as information.
 - The first-run data and whisper-guard's results on it were known when these numbers were chosen.
+- **Pre-tag expansion of test set:** Added 2 further unused AMI meetings (`EN2004a`, `EN2005a`) and 100 LibriSpeech `test-clean`
+  read speech files to the test set prior to tag freeze, expanding the real-speech clusters to 6 meetings and 100 audio files to ensure
+  a robust cluster bootstrap.
+- **Exploratory secondary metric:** A second clearly labelled line in the report reports real speech false alarms excluding lines whose
+  text is an obvious decoder collapse (exploratory, not the claim), while keeping the primary strict labelling rule completely unchanged.
 
-**Secondary, exploratory (no pass/fail, no claim):** the configuration "HushCheck 2 OR whisper-guard", and per-signal firing rates.
+**Secondary, exploratory (no pass/fail, no claim):** the configuration "HushCheck 2 OR whisper-guard", false alarms excluding decoder collapses, and per-signal firing rates.
 
 ## 8. Decision
 - Both claims pass: release HushCheck as an alpha pre-release with the full table, the limits and this rule's text.
@@ -72,3 +77,4 @@ use the paired difference over the same lines in the same bootstrap resamples. R
 ## 9. Deliverables (committed and pushed whatever the outcome)
 `results.md` (claims, per-recording table, bootstrap ranges), `ambiguous_lines.csv`, raw Whisper JSON, `pip freeze`, the evaluation
 script with its edit log, `docs/CALIBRATION.md`, and the tag `eval-spec-hc2-v1` on the commit that holds this file and the code.
+
