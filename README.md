@@ -87,4 +87,6 @@ If, after two rounds of fixes, hushcheck is not clearly better than whisper-guar
 
 Planted-bug (mutation) check: 58 deliberate code changes, all caught by the tests.
 
-MIT licence.
+## License
+
+MIT. Copyright (c) 2026 Boobalan Arjunan.
